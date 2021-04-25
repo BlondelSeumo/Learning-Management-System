@@ -1,0 +1,35 @@
+.error_wrapper{
+    padding: 150px 0;
+    @media #{$tab} {
+        padding: 75px 0;
+    }
+    .error_wrapper_info{
+        .thumb{
+            img{
+                max-width: 535px;
+                @media #{$small_mobile} {
+                    width: 100%;
+                }
+            }
+        }
+        h3{
+            font-size: 50px;
+            font-family: $font1;
+            font-weight: 900;
+            color: $theme_color;
+            margin: 19px 0 13px 0;
+            @media #{$small_mobile} {
+                font-size: 30px;
+            }
+            @media #{$large_mobile} {
+                font-size: 40px;
+            }
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+            color: #373737;
+            margin-bottom: 38px;
+        }
+    }
+}

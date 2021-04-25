@@ -1,0 +1,24 @@
+.select2-container--default .select2-selection--single {
+    border: solid 1px #E1E2E6 !important;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 0;
+    padding-top: 12px;
+}
+
+.account_profile_wrapper .select2-container--default .select2-selection--single {
+    background: transparent !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+
+    top: 12px;
+}
+
+.old_billing {
+    padding: 10px;
+}
+
+.small_select {
+    height: unset;
+}

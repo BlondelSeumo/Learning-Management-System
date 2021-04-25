@@ -1,0 +1,14 @@
+{
+    "name": "SystemSetting",
+    "alias": "systemsetting",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\SystemSetting\\Providers\\SystemSettingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

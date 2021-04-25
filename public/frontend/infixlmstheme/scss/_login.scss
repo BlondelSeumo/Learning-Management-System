@@ -1,0 +1,231 @@
+.login_wrapper{
+    display: grid;
+    grid-template-columns: 615px auto;
+    @media #{$tab} {
+        grid-template-columns:auto;
+    }
+    @media #{$lg_device} {
+        grid-template-columns:515px auto;
+    }
+    .login_wrapper_left{
+        padding: 60px 56px 53px 60px;
+        @media #{$tab} {
+            padding: 40px 30px;
+        }
+        .logo{
+            margin-bottom: 120px;
+            @media #{$tab} {
+                margin-bottom: 75px;
+            }
+            img{
+
+            }
+        }
+        .login_wrapper_content{
+            padding-bottom: 20px;
+            @media #{$tab} {
+                padding-bottom:100px;
+            }
+            h4{
+                font-size: 26px;
+                font-weight: 700;
+                line-height: 36px;
+                margin-bottom: 50px;
+                @media #{$tab} {
+                    font-size: 20px;
+                    line-height: 26px;
+                    margin-bottom: 40px;
+                }
+            }
+            .socail_links{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                grid-gap: 10px;
+                @media #{$tab} {
+                    grid-template-columns: repeat(1,1fr);
+                }
+                @media #{$lg_device} {
+                    grid-template-columns: repeat(1,1fr);
+                }
+                a{
+                    border-radius: 0;
+                    color: $white !important;
+                    white-space: nowrap;
+                    &:hover{
+                        background: $purple_color !important ;
+                    }
+                    i{
+                        font-size: 16px;
+                        margin-right: 5px;
+                    }
+                    &:nth-child(1){
+                        background: #395799;
+                        // border-color:  #395799 !important;
+                    }
+                    &:nth-child(2){
+                        background: #03ABF0;
+                        // border-color:  #03ABF0 !important;
+                    }
+                }
+            }
+            .login_text{
+                font-size: 14px;
+                font-weight: 500;
+                color: #373737;
+                font-family: $font1;
+                margin: 13px 0 50px 0;
+            }
+            .remember_forgot_pass{
+                align-items: center;
+                margin-bottom: 60px;
+                .primary_checkbox .label_name{
+                    font-size: 14px;
+                    color: #687083;
+                }
+                p{
+                    font-family: $font1;
+                    font-size: 14px;
+                    font-weight:500 ;
+                    color: #687083;
+                    margin-bottom: 0;
+                    a{
+                        text-decoration: underline;
+                        color: #687083;
+                    }
+                }
+                .forgot_pass{
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #5DABFC ;
+                    font-family: $font1;
+                }
+            }
+
+        }
+        .shitch_text{
+            font-size: 14px;
+            font-weight: 500;
+            color: #373737;
+            text-align: center;
+            a{
+                color: #4183FF;
+            }
+        }
+    }
+    .login_wrapper_right{
+        @media #{$tab} {
+            display: none;
+        }
+        @media #{$tab2} {
+            display: none;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffeaef+0,40e8dd+100&0.1+0,0.1+100 */
+        background: -moz-linear-gradient(top,  rgba(255,234,239,0.1) 0%, rgba(64,232,221,0.1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(255,234,239,0.1) 0%,rgba(64,232,221,0.1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgba(255,234,239,0.1) 0%,rgba(64,232,221,0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1affeaef', endColorstr='#1a40e8dd',GradientType=0 ); /* IE6-9 */
+
+        .login_main_info{
+            text-align: center;
+        }
+        h4{
+            font-size: 40px;
+            font-weight: 900;
+            color: $theme_color;
+            line-height: 50px;
+            @media #{$lg_device} {
+                font-size: 25px;
+                line-height: 35px;
+            }
+            @media #{$large_xl} {
+                font-size: 25px;
+                line-height: 35px;
+            }
+        }
+        br{
+            display: block !important;
+        }
+        .thumb{
+            margin: 80px 0 55px 0;
+            text-align: center;
+            @media #{$lg_device}{
+                margin: 50px 0 35px 0;
+            }
+            img{
+                max-width: 412px;
+                @media #{$lg_device}{
+                    max-width: 300px;
+                }
+                @media #{$large_xl}{
+                    max-width: 300px;
+                }
+            }
+        }
+        .other_links{
+            span{
+                font-size: 18px;
+                font-weight: 500;
+                font-family: $font2;
+                color: $theme_color;
+                &:not(:last-child){
+                    margin-right: 60px;
+                    @media #{$lg_device}{
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+    &.resister_wrapper{
+        .login_wrapper_left{
+            .logo{
+                margin-bottom: 91px;
+                @media #{$tab} {
+                    margin-bottom: 46px;
+                }
+                img{
+
+                }
+            }
+            .login_wrapper_content{
+                padding-bottom: 20px;
+                @media #{$tab}{
+                    padding-bottom: 60px;
+                }
+                .remember_forgot_pass{
+                    margin-bottom: 56px;
+                }
+            }
+        }
+    }
+}
+
+.custom_group_field{
+    border-bottom: 1px solid #E1E2E6;
+    span{
+        background: transparent ;
+        border: 0;
+        padding: 0;
+        width: 20px;
+        text-align: left;
+        padding-bottom: 14px;
+    }
+    input{
+        border: 0;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: $font2;
+        box-shadow: none !important;
+        padding-bottom: 19px;
+        padding-left: 10px;
+        &:focus{
+            outline: none;
+        }
+        &::placeholder{
+            color: #AFAFAF;
+        }
+    }
+}

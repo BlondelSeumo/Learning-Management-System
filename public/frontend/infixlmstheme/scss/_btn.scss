@@ -1,0 +1,219 @@
+.theme_btn{
+    background: $purple_color;
+    padding: 10px;
+    @include border-radius(5px);
+    display: inline-block;
+    font-family: $font1;
+    font-size: 16px;
+    color: $white;
+    font-weight: 600;
+    padding: 21px 28px;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    display: inline-block;
+    line-height: 1;
+    &.small_btn{
+        padding: 16px 25px;
+    }
+    &.small_btn2{
+        padding: 16px 39px;
+    }
+    &.small_btn3{
+        padding: 16px 32px;
+    }
+    &.small_btn4{
+        padding: 11px 21px;
+    }
+    &.mini_btn{
+        padding: 5px 5px;
+    }
+    @media #{$small_mobile} {
+        padding: 15px 16px;
+    }
+    &:hover{
+        color: $purple_color;
+        border-color: $purple_color;
+        background: transparent ;
+    }
+}
+.theme_btn_lite{
+    background: #FFF0F2;
+    padding: 10px;
+    @include border-radius(30px);
+    display: inline-block;
+    font-family: $font1;
+    font-size: 14px;
+    color: $purple_color;
+    font-weight: 500;
+    padding: 7px 25px;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    display: inline-block;
+    line-height: 1;
+    &.round_btn{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        line-height: 30px;
+        padding: 0;
+        text-align: center;
+    }
+    &:hover{
+        color: $white;
+        border-color: $purple_color;
+        background: $purple_color ;
+    }
+}
+.theme_line_btn{
+    background: transparent ;
+    padding: 10px;
+    @include border-radius(5px);
+    display: inline-block;
+    font-family: $font1;
+    font-size: 16px;
+    color: $purple_color;
+    font-weight: 600;
+    padding: 21px 28px;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    display: inline-block;
+    line-height: 1;
+    border-color: $purple_color;
+    @media #{$small_mobile} {
+        padding: 15px 16px;
+    }
+    &.small_btn2{
+        padding: 16px 39px;
+    }
+    &:hover{
+        color: $white;
+        border-color: $purple_color;
+        background: $purple_color;
+    }
+}
+.social_btn{
+    padding: 10px;
+    @include border-radius(5px);
+    display: inline-block;
+    font-family: $font1;
+    font-size: 16px;
+    color: $white;
+    font-weight: 600;
+    padding: 13px 34px;
+    text-transform: capitalize;
+    display: inline-block;
+    &.fb_bg{
+        background: #395799 ;
+    }
+    &.Twitter_bg{
+        background: #03ABF0 ;
+    }
+    &.Pinterest_bg{
+        background: #C92128 ;
+    }
+    &.Linkedin_bg{
+        background: #0477B5 ;
+    }
+    i{
+        margin-right: 6px;
+    }
+    &:hover{
+        color: $white;
+        background: $purple_color;
+    }
+}
+.white_btn{
+    background: $white;
+    padding: 10px;
+    @include border-radius(0px);
+    display: inline-block;
+    font-family: $font2;
+    font-size: 16px;
+    color: $theme_color;
+    font-weight: 600;
+    padding: 21px 28px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 1;
+    &:hover{
+        color: $white;
+        border-color: $purple_color;
+        background: $purple_color ;
+    }
+}
+
+.line_link{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: $font1;
+    color: $theme_color;
+    border-bottom: 1px solid #707070;
+    padding-bottom: 5px;
+    &:hover{
+        color: $theme_color;
+    }
+}
+
+
+.theme_line_payment_btn{
+    background: transparent ;
+    @include border-radius(5px);
+    display: inline-block;
+    font-family: $font1;
+    font-size: 16px;
+    color: $purple_color;
+    font-weight: 600;
+    height: 30px;
+    width: 100%;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    display: inline-block;
+    line-height: 1;
+    border-color: $purple_color;
+    @media #{$small_mobile} {
+        padding: 15px 16px;
+    }
+    //&.small_btn2{
+    //    padding: 16px 39px;
+    //}
+    &:hover{
+        //color: $white;
+        //border-color: $purple_color;
+    }
+
+
+}
+
+
+.theme_btn_mini{
+    background: #FFF0F2;
+    padding: 10px;
+    margin-right: 15px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    /* border-radius: 30px; */
+    display: inline-block;
+    font-family: "Cerebri Sans";
+    font-size: 14px;
+    color: #FB1159;
+    font-weight: 500;
+    /* padding: 7px 25px; */
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    display: inline-block;
+    line-height: 1;
+    &.round_btn{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        line-height: 30px;
+        padding: 0;
+        text-align: center;
+    }
+    &:hover{
+        color: $white;
+        border-color: $purple_color;
+        background: $purple_color ;
+    }
+}

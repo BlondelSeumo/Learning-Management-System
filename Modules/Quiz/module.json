@@ -1,0 +1,13 @@
+{
+    "name": "Quiz",
+    "alias": "quiz",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Quiz\\Providers\\QuizServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,194 @@
+.blog_area{
+    padding-top: 139px;
+    padding-bottom: 108px;
+    @media #{$tab} {
+        padding-top: 66px;
+        padding-bottom: 28px;
+    }
+    .single_blog{
+        margin-bottom: 40px;
+        &:hover{
+            .thumb{
+                img{
+                    transform: scale(1);
+                }
+            }
+        }
+        .thumb{
+            display: block;
+            overflow: hidden;
+            img{
+                transition: .3s;
+                transform: scale(1.1);
+                width: 100% !important;
+            }
+        }
+        .blog_meta{
+            padding-right: 20px;
+            @media #{$medium_device} {
+                padding-right: 0;
+            }
+            span{
+                font-size:14px;
+                font-weight: 500;
+                color:#373737 ;
+                display: block;
+                margin: 25px 0 13px 0;
+            }
+            h4{
+                font-weight: 700;
+                line-height: 28px;
+                transition: .3s;
+                &:hover{
+                    color:$purple_color ;
+                }
+            }
+        }
+    }
+}
+// blog_page_wrapper 
+.blog_page_wrapper{
+    padding: 150px 0 90px 0;
+    @media #{$tab} {
+        padding: 75px 0 35px 0;
+    }
+   .single_blog{
+       margin-bottom: 50px;
+       @media #{$tab} {
+           margin-bottom: 30px;
+       }
+      .thumb{
+          overflow: hidden;
+          margin-bottom: 44px;
+          display: block;
+          @media #{$tab}{
+              margin-bottom: 30px;
+          }
+        img{
+            width: 100%;
+            transition: .3s;
+            transform: scale(1);
+        }
+      }
+      .blog_meta{
+          span{
+            font-family: $font2;
+            font-size:14px ;
+            font-weight: 500;
+            color: #373737;
+            display: block;
+            margin-bottom: 16px;
+          }
+          h4{
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 34px;
+            display: inline-block;
+            @media #{$tab} {
+                font-size: 20px;
+                line-height: 30px;
+            }
+          }
+      }
+      &:hover{
+          .thumb{
+              img{
+                  transform: scale(1.1);
+              }
+          }
+      }
+   } 
+}
+
+// blog_details_area 
+.blog_details_area{
+    padding: 145px 0 147px 0;
+    @media #{$tab} {
+        padding: 75px 0 72px 0;
+    }
+    .mb_55{
+        @media #{$tab}{
+            margin-bottom: 30px;
+        }
+    }
+    .single_blog_details{
+        .blog_details_banner{
+            margin-bottom: 52px;
+            @media #{$tab}{
+                margin-bottom: 30px;
+            }
+        }
+        .blog_title{
+            margin-bottom: 57px;
+            @media #{$tab}{
+                margin-bottom: 30px;
+            }
+            span{
+                font-size: 14px;
+                font-weight: 500;
+                color:$color_1 ;
+                display: block;
+                margin-bottom: 18px;
+                
+            }
+            h3{
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 50px;
+                @media #{$tab} {
+                    font-size: 25px;
+                    line-height: 35px;
+                }
+            }
+        }
+        .quote_text{
+            display: flex;
+            margin: 60px 0 40px 0 ;
+            @media #{$tab}{
+                margin: 40px 0 20px 0 ;
+            }
+            h4{
+                font-size: 20px;
+                font-weight: 700;
+                color: #373737;
+                line-height: 30px;
+            }
+            .horizontal_line{
+                background: #FB1159;
+                height: 3px;
+                width: 90px;
+                flex: 90px 0 0;
+                position: relative;
+                top: 6px;
+                margin-right: 30px;
+                @media #{$tab}{
+                    width: 40px;
+                    flex: 40px 0 0;
+                    margin-right: 20px;
+                }
+            }
+        }
+        .details_info{
+            h4{
+                font-size: 24px;
+                font-weight: 700;
+                color: #202E3B;
+                margin-bottom: 25px;
+                @media #{$tab} {
+                    line-height: 34px;
+                    margin-bottom: 20px;
+                }
+            }
+            h5{
+                font-size: 18px;
+                line-height: 30px;
+                font-weight: 700;
+                color:#373737;
+                margin-bottom: 27px;
+            }
+            p{
+
+            }
+        }
+    }
+}

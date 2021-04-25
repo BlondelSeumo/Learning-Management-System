@@ -1,0 +1,16 @@
+{
+    "name": "Wallet",
+    "alias": "wallet",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Wallet\\Providers\\WalletServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "Wallet",
+    "version": 1,
+    "author": "Infix LMS"
+}

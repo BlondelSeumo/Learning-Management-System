@@ -1,0 +1,1458 @@
+/**************** common css start ****************/
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,700,900&display=swap");
+/* line 3, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  background-color: #fafafa;
+}
+
+@media (min-width: 1200px) {
+  /* line 11, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .container {
+    max-width: 1380px;
+  }
+}
+
+/* line 15, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.br_5 {
+  border-radius: 5px;
+}
+
+/* line 19, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.message_submit_form:focus {
+  outline: none;
+}
+
+/* line 22, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+input:hover, input:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 0px 0px transparent !important;
+}
+
+/* line 26, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.form-control {
+  border-color: #eeeeee;
+}
+
+/* line 29, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.form-control:focus {
+  box-shadow: 0 0 0 0rem transparent !important;
+  border-color: #eeeeee;
+}
+
+/* line 33, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.dropdown-menu {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 37, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.section_padding {
+  padding: 120px 0px;
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 37, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .section_padding {
+    padding: 80px 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 37, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .section_padding {
+    padding: 70px 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 37, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .section_padding {
+    padding: 70px 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 37, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .section_padding {
+    padding: 70px 0px;
+  }
+}
+
+/* line 52, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.padding_top {
+  padding-top: 120px;
+}
+
+@media (max-width: 991px) {
+  /* line 52, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .padding_top {
+    padding-top: 70px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 52, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .padding_top {
+    padding-top: 80px;
+  }
+}
+
+/* line 61, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.padding_bottom {
+  padding-bottom: 120px;
+}
+
+@media (max-width: 991px) {
+  /* line 61, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .padding_bottom {
+    padding-bottom: 70px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 61, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .padding_bottom {
+    padding-bottom: 80px;
+  }
+}
+
+/* line 71, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+a {
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 74, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 80, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #00273d;
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 84, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+p {
+  line-height: 28px;
+  font-size: 14px;
+  margin-bottom: 0px;
+  color: #79838b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+/* line 93, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+a:focus, .button:focus, button:focus, .btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+/* line 99, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.p_30 {
+  padding: 30px;
+}
+
+@media (max-width: 991px) {
+  /* line 99, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .p_30 {
+    padding: 20px;
+  }
+}
+
+/* line 105, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.p_20 {
+  padding: 20px;
+}
+
+/* line 108, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.p_15 {
+  padding: 20px 20px 15px;
+}
+
+/* line 111, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.mt_30 {
+  margin-top: 30px;
+}
+
+@media (max-width: 991px) {
+  /* line 111, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .mt_30 {
+    margin-top: 15px;
+  }
+}
+
+/* line 118, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+th:focus, td:focus {
+  outline: -webkit-focus-ring-color auto 0;
+}
+
+/* line 122, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+table.dataTable tbody th, table.dataTable tbody td {
+  vertical-align: middle;
+}
+
+/* line 125, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.mt_40 {
+  margin-top: 40px;
+}
+
+/* line 128, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.section_bg {
+  background-color: #fafafa;
+}
+
+/* line 131, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.left_arrow {
+  color: #79838b;
+  display: block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 137, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.left_arrow:after {
+  content: "";
+  position: absolute;
+  left: 35px;
+  top: 5px;
+  clip-path: polygon(0 0, 100% 55%, 0 100%);
+  background-color: #ff3b00;
+  width: 10px;
+  height: 10px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 150, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.left_arrow:hover {
+  color: #ff3b00;
+}
+
+/* line 153, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.left_arrow:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 159, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.cs_checkbox {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 170, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.cs_checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* line 177, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.cs_checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #343739;
+  border: 1px solid #444749;
+}
+
+/* line 188, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.section_tittle {
+  text-align: center;
+}
+
+/* line 190, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.section_tittle h2 {
+  font-size: 36px;
+  margin-bottom: 25px;
+  line-height: 33px;
+}
+
+@media (max-width: 991px) {
+  /* line 190, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .section_tittle h2 {
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 190, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .section_tittle h2 {
+    font-size: 30px;
+  }
+}
+
+/* line 202, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.section_tittle p {
+  margin-bottom: 72px;
+}
+
+@media (max-width: 991px) {
+  /* line 202, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .section_tittle p {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 202, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .section_tittle p {
+    margin-bottom: 50px;
+  }
+}
+
+/* Create a custom checkbox */
+/* On mouse-over, add a grey background color */
+/* line 217, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.cs_checkbox:hover input ~ .checkmark {
+  background-color: #ff3b00;
+  border: 1px solid #ff3b00;
+}
+
+/* When the checkbox is checked, add a blue background */
+/* line 223, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.cs_checkbox input:checked ~ .checkmark {
+  background-color: #ff3b00;
+  border: 1px solid #ff3b00;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+/* line 229, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.cs_checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+/* line 236, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.cs_checkbox input:checked ~ .checkmark:after {
+  display: block;
+  left: 8px;
+  top: 4px;
+  width: 7px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  content: "";
+}
+
+/* line 251, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.nice-select {
+  height: 50px;
+  line-height: 50px;
+}
+
+/* line 255, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.nice-select:active, .nice-select.open, .nice-select:focus {
+  border: 1px solid #eeeeee;
+}
+
+/* line 258, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.nice_Select {
+  border: 1px solid #eeeeee;
+  border-radius: 0;
+  font-size: 13px;
+  color: #79838b;
+  display: block;
+  width: 100%;
+  text-transform: capitalize;
+  padding: 0 20px;
+  margin-bottom: 15px;
+}
+
+/* line 268, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.nice_Select:after {
+  border-bottom: 0 solid transparent;
+  border-right: 0 solid transparent;
+  content: "\e61a";
+  font-family: 'themify';
+  transform: rotate(0);
+  top: 5px;
+}
+
+/* line 276, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.nice_Select .option:hover, .nice_Select .option.focus, .nice_Select .option.selected.focus {
+  background-color: #222;
+  color: #79838b;
+  font-weight: 400;
+}
+
+/* line 281, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.nice_Select .list {
+  width: 100%;
+  border-radius: 0;
+  background-color: #222;
+  color: #79838b;
+  font-weight: 400;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 281, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .nice_Select .list {
+    padding: 5px;
+  }
+}
+
+/* line 291, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.nice_Select .list li {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 293, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.nice_Select .list li:hover {
+  color: #ff3b00 !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 291, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .nice_Select .list li {
+    line-height: 33px;
+    padding: 0;
+  }
+}
+
+/* line 305, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.nice_Select.open:after {
+  transform: rotate(0);
+  content: "\e622";
+  font-family: 'themify';
+}
+
+/* line 311, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.white_box {
+  background-color: #fff;
+  padding: 40px;
+}
+
+@media (max-width: 991px) {
+  /* line 311, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .white_box {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 311, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .white_box {
+    padding: 25px 15px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 311, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .white_box {
+    padding: 30px 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  /* line 311, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .white_box {
+    padding: 30px 20px;
+  }
+}
+
+/* line 326, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.white_box h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-bottom: 23px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 991px) {
+  /* line 326, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .white_box h3 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 326, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+  .white_box h3 {
+    margin-bottom: 10px;
+  }
+}
+
+/* line 341, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.cu_dropdown .btn {
+  border: 1px solid #f1f2f3;
+  background-color: #fafafa;
+  color: #79838b;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px 15px;
+}
+
+/* line 349, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.cu_dropdown .dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: 0;
+  content: "\e64b";
+  border-top: none;
+  font-family: 'themify';
+  font-size: 10px;
+}
+
+/* line 358, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.cu_dropdown .dropdown-menu {
+  min-width: auto;
+  background-color: #00273d;
+  width: 102px;
+  left: 0 !important;
+  border-radius: 0 0 5px 5px;
+  top: -2px !important;
+  padding: 17px 0;
+}
+
+/* line 366, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.cu_dropdown .dropdown-menu .dropdown-item {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+/* line 373, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.cu_dropdown .left_arrow:hover {
+  background-color: transparent;
+  padding-left: 38px;
+}
+
+/* line 377, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.cu_dropdown .left_arrow:after {
+  left: 18px;
+  top: 8px;
+}
+
+/* line 384, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.show .btn {
+  background-color: #ff3b00;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+}
+
+/* line 389, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.show .dropdown-toggle::after {
+  transform: rotate(180deg);
+  color: #fff;
+  vertical-align: 1px;
+}
+
+/* line 395, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.switch {
+  -webkit-appearance: none;
+  background-color: gray;
+  border-radius: 43px;
+  position: relative;
+  cursor: pointer;
+  padding: 14px 25px !important;
+  margin-right: 20px;
+  height: 30px;
+}
+
+/* line 404, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.switch::after {
+  top: 6px;
+  left: 6px;
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-color: #ff3b00;
+  position: absolute;
+  border-radius: 100%;
+  transition: 1s;
+}
+
+/* line 415, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.switch:checked {
+  background-color: #ff3b00 !important;
+}
+
+/* line 417, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.switch:checked::after {
+  background-color: #fff !important;
+}
+
+/* line 420, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.switch:checked::after {
+  transform: translateX(25px);
+}
+
+/* line 424, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.switch:focus {
+  outline-color: transparent;
+}
+
+/* line 428, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.menu_bropdown {
+  display: inline-block;
+}
+
+/* line 430, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_reset.scss */
+.menu_bropdown .dropdown-menu {
+  width: 168px !important;
+  right: 0;
+}
+
+/**************** common css end ****************/
+/******** base color css ********/
+/* line 2, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_button.scss */
+.btn_1 {
+  background-color: #ff3b00;
+  border: 1px solid #ff3b00;
+  color: #fff !important;
+  display: inline-block;
+  padding: 11px 23px;
+  text-transform: capitalize;
+  line-height: 16px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+/* line 13, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_button.scss */
+.btn_1:hover {
+  background-color: #fff;
+  border: 1px solid #ff3b00;
+  color: #ff3b00 !important;
+}
+
+/* line 19, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_button.scss */
+.btn_2 {
+  color: #ff3b00 !important;
+  border: 1px solid #ff3b00;
+  display: inline-block;
+  padding: 11px 23px;
+  text-transform: capitalize;
+  line-height: 16px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+/* line 29, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_button.scss */
+.btn_2:hover {
+  background-color: #ff3b00;
+  border: 1px solid #ff3b00;
+  color: #fff !important;
+}
+
+/* line 35, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_button.scss */
+.product_btn {
+  font-size: 12px;
+  background-color: #ff3b00;
+  display: inline-block;
+  color: #fff;
+  padding: 2px 15px;
+  text-transform: uppercase;
+  border: 1px solid #ff3b00;
+}
+
+/* line 43, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_button.scss */
+.product_btn:hover {
+  border: 1px solid #ff3b00;
+  background-color: transparent;
+  color: #ff3b00;
+}
+
+/******** header css here *********/
+/* line 2, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+.header_part {
+  padding: 15px 30px;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px 0px rgba(0, 39, 61, 0.05);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+@media (max-width: 991px) {
+  /* line 2, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+  .header_part {
+    padding: 15px;
+  }
+}
+
+/* line 14, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+.header_part .profile_info {
+  position: relative;
+}
+
+/* line 16, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+.header_part .profile_info img {
+  max-width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  /* line 16, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+  .header_part .profile_info img {
+    max-width: 30px;
+  }
+}
+
+/* line 24, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+.header_part .profile_info .profile_info_iner {
+  position: absolute;
+  right: 0;
+  top: 75px;
+  background-color: #00273d;
+  text-align: right;
+  width: 215px;
+  padding: 30px 30px 20px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 35, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+.header_part .profile_info .profile_info_iner a {
+  display: block;
+}
+
+/* line 39, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+.header_part .profile_info .profile_info_iner p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+/* line 43, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+.header_part .profile_info .profile_info_iner h5 {
+  font-size: 12px;
+  color: #fff;
+}
+
+/* line 49, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+.header_part .profile_info:hover .profile_info_iner {
+  opacity: 1;
+  visibility: visible;
+  top: 65px;
+}
+
+/* line 55, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+.header_part .profile_info .profile_info_details {
+  margin-top: 20px;
+  border-top: 1px solid #79838b;
+  padding-top: 10px;
+}
+
+/* line 59, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+.header_part .profile_info .profile_info_details a {
+  color: #fff;
+  font-size: 13px;
+  display: block;
+  padding: 10px 0;
+}
+
+/* line 64, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+.header_part .profile_info .profile_info_details a:hover {
+  color: #ff3b00;
+}
+
+/* line 66, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+.header_part .profile_info .profile_info_details a:hover i {
+  color: #ff3b00;
+}
+
+/* line 71, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+.header_part .profile_info .profile_info_details i {
+  color: #cccccc;
+  font-size: 12px;
+  margin-left: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 80, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_header.scss */
+.header_part .sidebar_icon i {
+  font-size: 18px;
+}
+
+/******** header css end *********/
+/************ sidebar css here ************/
+/* line 2, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_sidebar.scss */
+.sidebar {
+  width: 270px;
+  background-color: #fff;
+  max-height: 100vh;
+  overflow: scroll;
+  top: 80px;
+  position: fixed;
+  left: 0;
+  z-index: 99;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 991px) {
+  /* line 2, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_sidebar.scss */
+  .sidebar {
+    left: -270px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    top: 0;
+  }
+}
+
+/* line 17, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_sidebar.scss */
+.sidebar .single_sidebar_iner {
+  padding: 28px 30px 24px;
+  border-top: 1px solid #eeeeee;
+}
+
+/* line 20, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_sidebar.scss */
+.sidebar .single_sidebar_iner a {
+  display: block;
+  font-size: 13px;
+}
+
+/* line 25, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_sidebar.scss */
+.sidebar .single_sidebar_tittle {
+  margin-bottom: 10px;
+}
+
+/* line 27, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_sidebar.scss */
+.sidebar .single_sidebar_tittle i {
+  font-size: 16px;
+  color: #ff3b00;
+  margin-right: 20px;
+}
+
+/* line 32, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_sidebar.scss */
+.sidebar .single_sidebar_tittle p {
+  font-size: 15px;
+  color: #00273d;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 39, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_sidebar.scss */
+.sidebar .single_menu_item {
+  padding-left: 36px;
+  margin: 6px 0;
+  line-height: 21px;
+}
+
+/* line 43, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_sidebar.scss */
+.sidebar .single_menu_item:hover {
+  padding-left: 55px !important;
+}
+
+@media (max-width: 991px) {
+  /* line 49, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_sidebar.scss */
+  .active_sidebar {
+    left: 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* line 54, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_sidebar.scss */
+.sidebar_close_icon i {
+  width: 40px;
+  height: 40px;
+  background-color: #ddd;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  right: 0px;
+}
+
+/************ sidebar css end ************/
+/******** main content css here *********/
+/* line 2, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_main_content.scss */
+.main_content {
+  padding: 110px 15px 0 285px;
+  min-height: 85vh;
+}
+
+@media (max-width: 991px) {
+  /* line 2, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_main_content.scss */
+  .main_content {
+    padding: 90px 0 0 0;
+  }
+}
+
+/* line 10, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_main_content.scss */
+.address_book_hint p {
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+
+/******** main content css end *********/
+/*************** activity log css ***************/
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 2, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_activity_log.scss */
+  .activity_log {
+    margin-top: 30px;
+  }
+}
+
+/* line 6, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_activity_log.scss */
+.activity_log .single_part {
+  padding: 14px 0;
+  border-bottom: 1px solid #f1f2f3;
+}
+
+/* line 9, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_activity_log.scss */
+.activity_log .single_part:first-child {
+  padding: 0 0 14px;
+}
+
+/* line 12, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_activity_log.scss */
+.activity_log .single_part:last-child {
+  padding: 14px 0 0;
+  border-bottom: 0px solid transparent;
+}
+
+/* line 16, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_activity_log.scss */
+.activity_log .single_part h5 {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+/* line 21, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_activity_log.scss */
+.activity_log .single_part p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+/* line 28, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_activity_log.scss */
+.account_status .account_status_tittle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 32, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_activity_log.scss */
+.account_status .account_status_tittle a {
+  color: #00273d;
+  text-decoration: underline;
+}
+
+/* line 38, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_activity_log.scss */
+.account_status .single_part p {
+  font-size: 14px;
+}
+
+/* line 42, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_activity_log.scss */
+.account_status .status_progressbar {
+  margin-top: 20px;
+  position: relative;
+}
+
+/* line 45, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_activity_log.scss */
+.account_status .status_progressbar .progress-bar {
+  background-color: #ff3b00;
+}
+
+/* line 48, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_activity_log.scss */
+.account_status .status_progressbar .progress {
+  background-color: #f1f2f3;
+  border-radius: 5px;
+  height: 14px !important;
+}
+
+/* line 53, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_activity_log.scss */
+.account_status .status_progressbar span {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/*************** activity log css end ***************/
+/******** table style css *******/
+/* line 2, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 991px) {
+  /* line 2, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .table_style {
+    margin-bottom: 85px;
+  }
+}
+
+/* line 8, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .dataTables_length {
+  display: none;
+}
+
+/* line 11, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .table_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+@media (max-width: 575px) {
+  /* line 11, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .table_style .table_header {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 11, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .table_style .table_header {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  /* line 11, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .table_style .table_header {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 28, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .table_header h3 {
+  margin-bottom: 0;
+}
+
+@media (max-width: 575px) {
+  /* line 28, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .table_style .table_header h3 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 28, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .table_style .table_header h3 {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 39, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .btn_2 {
+  margin-right: 7px;
+}
+
+@media (max-width: 575px) {
+  /* line 39, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .table_style .btn_2 {
+    padding: 11px 12px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 45, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .table_style .btn_1 {
+    padding: 11px 12px;
+  }
+}
+
+/* line 50, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .dataTables_wrapper {
+  position: initial;
+}
+
+/* line 52, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .dataTables_wrapper .dataTables_filter label {
+  border: 1px solid #e4e8ec;
+  padding: 8px 20px;
+  width: 430px;
+  line-height: 20px;
+  position: absolute;
+  border-radius: 5px;
+  right: 30%;
+  top: 40px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  /* line 52, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .table_style .dataTables_wrapper .dataTables_filter label {
+    width: 260px;
+    line-height: 20px;
+    right: 15px;
+    top: 82px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 52, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .table_style .dataTables_wrapper .dataTables_filter label {
+    width: 260px;
+    right: 0;
+    top: 0;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 52, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .table_style .dataTables_wrapper .dataTables_filter label {
+    width: 260px;
+    right: 0;
+    top: 0;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  /* line 52, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .table_style .dataTables_wrapper .dataTables_filter label {
+    right: 0;
+    top: 0;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1680px) {
+  /* line 52, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .table_style .dataTables_wrapper .dataTables_filter label {
+    width: 330px;
+    right: 35%;
+  }
+}
+
+/* line 90, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .dataTables_wrapper i.ti-search {
+  position: absolute;
+  left: 14px;
+  top: 12px;
+}
+
+/* line 95, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .dataTables_wrapper input {
+  width: 95%;
+  border: 0px solid transparent;
+  border-left: 1px solid #edeeef;
+  padding-left: 15px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #79838b;
+}
+
+/* line 106, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .dataTables_paginate {
+  position: absolute;
+  bottom: -71px;
+  right: -15px;
+}
+
+/* line 112, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .dataTables_info {
+  position: absolute;
+  bottom: -62px;
+  left: 0;
+  color: #79838b;
+}
+
+/* line 118, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style table.dataTable tbody th, .table_style table.dataTable tbody td {
+  padding: 19px 25px;
+  font-size: 14px;
+  color: #79838b;
+  font-weight: 300;
+}
+
+/* line 123, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style table.dataTable tbody th img, .table_style table.dataTable tbody td img {
+  padding-right: 7px;
+  max-width: 47px;
+}
+
+/* line 128, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .dataTables_wrapper .dataTables_paginate .paginate_button {
+  box-sizing: border-box;
+  display: inline-block;
+  min-width: auto;
+  padding: 0;
+  margin-left: 0;
+  border-radius: 5px;
+}
+
+@media (max-width: 991px) {
+  /* line 137, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .table_style .cu_dropdown {
+    display: inline-block;
+  }
+}
+
+/* line 142, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .modal .modal-header {
+  justify-content: center;
+}
+
+/* line 144, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .modal .modal-header h5 {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 21px 0 23px;
+}
+
+/* line 150, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .modal h6 {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  margin-bottom: 17px;
+}
+
+/* line 158, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .modal .form-group label {
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+
+/* line 164, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .modal .form-group input {
+  border: 1px solid #e4e8ec;
+  font-size: 13px;
+  font-weight: 300;
+  color: #79838b;
+  padding: 24px;
+  background-color: #fafafa;
+}
+
+/* line 174, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .form-row {
+  background-color: #fff;
+  padding: 36px 30px;
+  margin-bottom: 10px;
+}
+
+/* line 179, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .bootstrap-tagsinput {
+  width: 100%;
+  display: block;
+}
+
+/* line 183, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .modal-content {
+  background-color: #fafafa;
+  border: 0px solid transparent;
+  padding: 15px 25px;
+}
+
+/* line 188, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .modal-header, .table_style .modal-body, .table_style .modal-footer {
+  padding: 0;
+  border: 0px solid transparent;
+}
+
+/* line 192, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .modal-footer {
+  padding: 20px 0 20px !important;
+}
+
+/* line 195, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .bootstrap-tagsinput {
+  padding: 4px 20px;
+}
+
+/* line 197, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .bootstrap-tagsinput .badge-info {
+  margin: 0 5px;
+  padding: 5px 15px;
+  border-radius: 50px;
+  background-color: #ff3b00;
+  font-size: 12px;
+}
+
+/* line 204, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style .bootstrap-tagsinput input {
+  border: 0px solid transparent !important;
+  padding: 9px !important;
+  background-color: transparent !important;
+}
+
+/* line 211, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style #export_btn .modal-content {
+  background-color: #fafafa;
+}
+
+/* line 214, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.table_style #export_btn .modal-body {
+  background-color: #fff;
+  padding: 30px;
+}
+
+/* line 220, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.paginate_button {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: transparent !important;
+  color: #fff;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+/* line 229, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.paginate_button i {
+  color: #79838b;
+}
+
+/* line 233, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+.paginate_button .current {
+  background-color: #ff3b00 !important;
+  border: 1px solid #ff3b00 !important;
+}
+
+@media (max-width: 575px) {
+  /* line 238, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .dataTables_wrapper .dataTables_filter {
+    float: left;
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 244, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_table_style.scss */
+  .dataTables_wrapper .dataTables_filter {
+    float: left;
+    text-align: right;
+  }
+}
+
+/******** table style css end *******/
+/************** footer css ****************/
+/* line 2, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_footer.scss */
+.footer_part {
+  background-color: #fff;
+  text-align: center;
+  padding: 16px 0;
+  margin-top: 70px;
+}
+
+/* line 7, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_footer.scss */
+.footer_part p {
+  font-size: 14px;
+}
+
+/* line 10, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_footer.scss */
+.footer_part a {
+  color: #00273d;
+  text-decoration: underline;
+}
+
+/************** footer css end ****************/
+/********* breadcrumd css here **********/
+/* line 2, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_breadcrumb.scss */
+.breadcrumb_content {
+  background-color: #fff;
+  padding: 19px 30px;
+  line-height: 22px;
+}
+
+@media (max-width: 991px) {
+  /* line 2, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_breadcrumb.scss */
+  .breadcrumb_content {
+    padding: 20px;
+  }
+}
+
+/* line 9, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_breadcrumb.scss */
+.breadcrumb_content h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+@media (max-width: 575px) {
+  /* line 9, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_breadcrumb.scss */
+  .breadcrumb_content h2 {
+    margin-bottom: 15px;
+    padding: 0;
+  }
+}
+
+/* line 19, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_breadcrumb.scss */
+.breadcrumb_content .sa_breadcrumb_iner a {
+  position: relative;
+  color: #79838b;
+  padding-left: 30px;
+}
+
+/* line 23, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_breadcrumb.scss */
+.breadcrumb_content .sa_breadcrumb_iner a:after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 3px;
+  clip-path: polygon(0 0, 100% 55%, 0 100%);
+  background-color: #79838b;
+  width: 10px;
+  height: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 34, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_breadcrumb.scss */
+.breadcrumb_content .sa_breadcrumb_iner a:first-child {
+  padding-left: 0;
+}
+
+/* line 36, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_breadcrumb.scss */
+.breadcrumb_content .sa_breadcrumb_iner a:first-child:after {
+  display: none;
+}
+
+/* line 40, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_breadcrumb.scss */
+.breadcrumb_content .sa_breadcrumb_iner a:hover {
+  color: #ff3b00;
+}
+
+/* line 41, /Applications/MAMP/htdocs/project/infix/infix_html/scss/_breadcrumb.scss */
+.breadcrumb_content .sa_breadcrumb_iner a:hover:after {
+  background-color: #ff3b00;
+}
+
+/********* breadcrumd css end **********/
+
+/*# sourceMappingURL=../css/style.map */

@@ -1,0 +1,63 @@
+.cta_area{
+    background-image: url(../img/banner/cta_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 150px 0;
+    @media #{$tab} {
+        padding: 75px 0;
+    }
+    &::before{
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        background: #0A0B21;
+        opacity: .5;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    .section__title{
+        h3{
+            margin-bottom: 10px;
+        }
+        p{
+            margin-bottom: 40px;
+        }
+    }
+}
+
+// package_area 
+.package_area{
+    @include background('../img/banner/backage_bg.jpg',bottom center)  ;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 292px;
+    @media #{$tab} {
+        padding-top: 65px;
+        padding-bottom: 145px;
+    }
+    .single_package{
+        text-align: center;
+        .icon{
+            img{
+                display: inline-block;
+                width: auto;
+            }
+        }
+        h4{
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 4px;
+            margin-top: 31px;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 500;
+            color: $color_1;
+        }
+    }
+}

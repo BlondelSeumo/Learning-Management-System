@@ -1,0 +1,13 @@
+{
+    "name": "PaymentMethodSetting",
+    "alias": "paymentmethodsetting",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\PaymentMethodSetting\\Providers\\PaymentMethodSettingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

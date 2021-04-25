@@ -1,0 +1,519 @@
+.payment_area {
+    .biling_address {
+        padding: 30px 40px 40px 40px;
+        @media #{$small_mobile} {
+            padding: 20px;
+        }
+
+        .biling-header {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+
+            h4 {
+                font-family: $font1;
+                font-weight: 500;
+                font-size: 18px;
+                color: #333333;
+                line-height: 21px;
+                margin-bottom: 0;
+                @media #{$small_mobile} {
+                    font-size: 16px;
+                }
+            }
+
+            a {
+                background: #fff;
+                color: #000000;
+                font-family: $font1;
+                font-weight: 700;
+                padding: 4px 30px;
+                display: inline-block;
+            }
+        }
+
+        .biling_body_content {
+            padding-top: 29px;
+            padding-bottom: 11px;
+
+            p {
+                font-size: 14px;
+                color: #888888;
+                line-height: 26px;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .select_payment_method {
+        margin-top: 35px;
+
+        .payment_method_header {
+            h4 {
+                font-size: 18px;
+                font-weight: 500;
+                font-family: $font1;
+                line-height: 21px;
+                color: #333333;
+                margin-bottom: 20px;
+            }
+
+            border-bottom: 1px solid #eee;
+            margin-bottom: 35px;
+        }
+
+        .payment_wrap {
+            .nav {
+                -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+                padding-left: 0;
+                margin-bottom: 0;
+                list-style: none;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+            }
+
+            ul {
+                li {
+                    display: inline-block;
+                    margin-right: 20px;
+                    margin-bottom: -2px;
+                    @media #{$small_mobile} {
+                        margin-right: 5px;
+                    }
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    a.nav-link {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 25px 50px;
+                        border: 1px solid transparent;
+                        background: #fafafa;
+                        height: 110px;
+                        max-width: 220px;
+                        border-bottom: 1px solid #ddd;
+                        margin-bottom: 1px;
+                        @media #{$small_mobile} {
+                            height: 50px;
+                            margin-bottom: 1px;
+                            padding: 24px 3px;
+                            border-radius: 0;
+                        }
+
+                        &.active {
+                            border-top: 1px solid #ddd;
+                            border-right: 1px solid #ddd;
+                            border-left: 1px solid #ddd;
+                            border-bottom: none;
+                            background: #fff;
+                            margin-bottom: -4px;
+                        }
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            .tab-content {
+                .tab-pane {
+                    .payment_form {
+                        padding: 40px 40px 35px 40px;
+                        @media #{$small_mobile} {
+                            padding: 20px 15px;
+                        }
+
+                        label {
+                            font-size: 11px;
+                            font-family: $font1;
+                            text-transform: uppercase;
+                            color: #000000;
+                            font-weight: 400;
+                            margin-bottom: 7px;
+
+                            span {
+                                color: #ff0000;
+                            }
+                        }
+
+                        .form-wrap {
+                            input {
+                                width: 100%;
+                                background: #fafafa;
+                                height: 50px;
+                                border: 0;
+                                padding-left: 25px;
+                                margin-bottom: 15px;
+                                font-size: 13px;
+
+                                &:focus {
+                                    outline: none;
+                                }
+
+                                &::placeholder {
+                                    font-size: 13px;
+                                    color: #888888;
+                                    font-family: $font1;
+                                    font-weight: 300;
+                                    text-transform: capitalize;
+                                    font-size: 13px;
+                                }
+                            }
+                        }
+
+                        .payemt-check {
+                            label {
+                                font-size: 14px;
+                                font-family: $font1;
+                                font-weight: 300;
+                                color: #888888;
+                                line-height: 15px;
+                                text-transform: capitalize;
+                            }
+                        }
+
+                        .boxed-btn {
+                            @media #{$small_mobile} {
+                                margin-top: 15px;
+                            }
+                        }
+                    }
+
+                    &.active {
+                    }
+                }
+            }
+
+            .tab-content > .active {
+                display: block;
+                border-right: 1px solid #dddddd;
+                border-left: 1px solid #dddddd;
+                border-bottom: 1px solid #dddddd;
+            }
+        }
+    }
+}
+
+.gj-datepicker-md [role="right-icon"] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 24px;
+    display: none;
+}
+
+// {{{{{ payment_confim_area start ::::>>>>>>>>}}}
+.payment_confim_area {
+    .payment_confirm_header {
+        height: 150px;
+        width: 150px;
+        background: #16e481;
+        text-align: center;
+        line-height: 150px;
+        position: relative;
+        margin: auto;
+
+        .payment_logo {
+            width: 60px;
+            height: 60px;
+            background: #fff;
+            text-align: center;
+            line-height: 60px;
+            border-radius: 50%;
+            box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+            margin: auto;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 10px;
+            left: 0;
+        }
+    }
+
+    .payment_comfirmation_header {
+        text-align: center;
+
+        .conformation-title {
+            margin-bottom: 74px;
+
+            h2 {
+                font-size: 42px;
+                font-weight: 700;
+                font-family: $font1;
+                text-transform: uppercase;
+                margin-bottom: 23px;
+                margin-top: 50px;
+                @media #{$small_mobile} {
+                    font-size: 25px;
+                }
+            }
+
+            p {
+                font-size: 14px;
+                color: #888888;
+                line-height: 26px;
+                font-family: $font1;
+                font-weight: 300;
+                @media #{$small_mobile} {
+                    font-size: 13px;
+                }
+
+                a {
+                    color: #000000;
+                    border-bottom: 1px solid transparent;
+                    padding-bottom: 3px;
+
+                    &:hover {
+                        padding-bottom: 0;
+                        border-bottom: 1px solid #7f7f7f;
+                    }
+                }
+            }
+        }
+    }
+
+    .payment_confirm_prise_wrap {
+        padding: 40px 40px 10px 40px;
+        @media #{$small_mobile} {
+            padding: 20px 20px 10px 20px;
+        }
+        @media #{$tab} {
+            padding: 40px 20px 10px 20px;
+        }
+
+        .payment_confirm_prise_header {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+
+            h4 {
+                font-family: $font1;
+                font-weight: 500;
+                color: #333333;
+                font-size: 18px;
+                margin-bottom: 0;
+            }
+
+            span {
+                display: inline-block;
+                font-weight: 700;
+                font-family: $font1;
+                font-size: 12px;
+                color: #000000;
+                background: #fff;
+                text-transform: uppercase;
+                padding: 11px 25px;
+            }
+        }
+
+        .payment_wrap_body {
+            padding: 30px 0;
+            border-bottom: 1px solid #ddd;
+
+            &:last-child {
+                border: none;
+            }
+
+            .single-confirmation {
+                .payment_wrap_thumb {
+                    margin-right: 30px;
+                    @media #{$small_mobile} {
+                        margin-right: 10px;
+                    }
+                    @media #{$tab} {
+                        margin-right: 15px;
+                    }
+                }
+
+                .payment_info {
+                    h5 {
+                        a {
+                            font-size: 16px;
+                            font-family: $font1;
+                            color: #000000;
+                            margin-bottom: 0;
+
+                            &:hover {
+                                color: #000;
+                            }
+                        }
+                    }
+
+                    p {
+                        font-size: 12px;
+                        color: #a0a0a0;
+                        margin-bottom: 0;
+                        line-height: 21px;
+
+                        a {
+                            color: #000;
+                            border-bottom: 2px solid transparent;
+                            padding-bottom: 3px;
+
+                            &:hover {
+                                padding-bottom: 0;
+                                border-color: #bbb;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .payment_btn_prise {
+                -webkit-box-pack: end;
+                -ms-flex-pack: end;
+                justify-content: flex-end;
+                @media #{$small_mobile} {
+                    margin-top: 30px;
+                }
+
+                a {
+                    margin-right: 100px;
+                    @media #{$small_mobile} {
+                        margin-right: 25px;
+                    }
+                    @media #{$tab} {
+                        margin-right: 13px;
+                    }
+                    @media #{$medium_device} {
+                        margin-right: 35px;
+                    }
+                }
+
+                .net_prise {
+                    text-align: center;
+
+                    span {
+                        font-family: $font1;
+                        font-weight: 300;
+                        font-size: 14px;
+                        line-height: 21px;
+                        color: #888888;
+                    }
+
+                    h3 {
+                        font-family: $font1;
+                        font-weight: 700;
+                        font-size: 32px;
+                        color: #333333;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.payment_confirm_header {
+    height: 150px;
+    width: 150px;
+    background: #16e481;
+    text-align: center;
+    line-height: 150px;
+    position: relative;
+    margin: auto;
+
+    .payment_logo {
+        width: 60px;
+        height: 60px;
+        background: #fff;
+        text-align: center;
+        line-height: 60px;
+        border-radius: 50%;
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+        margin: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 10px;
+        left: 0;
+    }
+}
+
+.payment_comfirmation_header {
+    text-align: center;
+
+    .conformation-title {
+        margin-bottom: 74px;
+
+        h2 {
+            font-size: 42px;
+            font-weight: 700;
+            font-family: $font1;
+            text-transform: uppercase;
+            margin-bottom: 23px;
+            margin-top: 50px;
+            @media #{$small_mobile} {
+                font-size: 25px;
+            }
+        }
+
+        p {
+            font-size: 14px;
+            color: #888888;
+            line-height: 26px;
+            font-family: $font1;
+            font-weight: 300;
+            @media #{$small_mobile} {
+                font-size: 13px;
+            }
+
+            a {
+                color: #000000;
+                border-bottom: 1px solid transparent;
+                padding-bottom: 3px;
+
+                &:hover {
+                    padding-bottom: 0;
+                    border-bottom: 1px solid #7f7f7f;
+                }
+            }
+        }
+    }
+}
+
+.nav-tabs {
+    font-size: $font1;
+    margin-left: 30px;
+    border-bottom: 0px solid #dee2e6;
+    @media (max-width: 991px) {
+        margin-top: 50px;
+    }
+
+    @media (max-width: 615px) {
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .nav-item {
+        @media (max-width: 615px) {
+            margin-bottom: 15px;
+        }
+    }
+
+    .nav-link {
+        background: $white;
+        color: $color_1;
+        border: 0;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 500;
+        padding: 8px 25px;
+        margin-right: 10px;
+        border-radius: 0px;
+
+        &.active {
+            background: #cad5f3;
+            color: $purple_color;
+        }
+    }
+}
+
+
+.paymentBtn {
+    width: 100%;
+    height: 30px;
+}

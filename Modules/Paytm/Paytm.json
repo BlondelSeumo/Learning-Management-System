@@ -1,0 +1,16 @@
+{
+    "Paytm": {
+        "names": [
+            "payWithSsl"
+        ],
+        "versions": [
+            "0.1"
+        ],
+        "url": [
+            "https://spondonit.com/contact"
+        ],
+        "notes": [
+            "This is PayTM module for indian  payment gateway. Thanks for using."
+        ]
+    }
+}

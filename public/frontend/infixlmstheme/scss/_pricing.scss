@@ -1,0 +1,93 @@
+.pricing_area{
+    padding-bottom: 120px;
+    @media #{$tab} {
+        padding-bottom: 45px;
+    }
+    .pricing_carousel{
+        background: #fff;
+        box-shadow: 0 3px 20px rgba(0, 0, 0,.05);
+        border-radius: 20px;
+        padding: 52px 0 52px 0;
+        position: relative;
+        margin-top: -125px;
+        margin-bottom: 100px;
+        @media #{$tab} {
+          margin: 75px 0 50px 0;
+        }
+        .single_course_slide{
+            .icon{
+                img{
+                    display: inline-block;
+                    width: auto;
+                }
+            }
+            h4{
+                font-size: 22px;
+                font-weight: 700;
+                color: #202E3B;
+                margin-bottom: 7px;
+                margin-top: 30px;
+            }
+            span{
+                font-family: $font2;
+                font-size: 16px;
+                font-weight: 500;
+                color: #373737;
+            }
+        }
+    }
+    .single_pricing{
+        background: $white;
+        box-shadow: 0 2px 10px rgba(0, 0, 0,.05);
+        border-radius: 10px;
+        padding: 40px 30px  40px 30px ;
+        .pricing_header{
+            padding-bottom: 23px;
+            text-align: center;
+            h3{
+                font-size: 22px;
+                font-family: $font1;
+                font-weight: 900;
+                margin-bottom: 0;
+            }
+            border-bottom: 1px solid #EEF0F4;
+        }
+        .pricing_body{
+           
+            h2{
+                font-size: 50px;
+                font-weight:900 ;
+                margin-bottom: 0;
+                color: #FB1159;
+                position: relative;
+                display: inline-block;
+                line-height: 1;
+                margin: 27px 0 25px 0;
+                span{
+                    font-size: 16px;
+                    font-weight: 600;
+                    font-family: $font1;
+                    position: absolute;
+                    &.sup{
+                        left: -10px;
+                        top: 6px;
+                    }
+                    &.sub{
+                        right: -28px;
+                        bottom: 8px;
+                    }
+                }
+            }
+            .pricing_lists{
+                margin-bottom: 41px;
+                li{
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: $font2;
+                    color: #687083;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+}

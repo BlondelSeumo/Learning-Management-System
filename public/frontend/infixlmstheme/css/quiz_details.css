@@ -1,0 +1,133 @@
+.bootstrap-datetimepicker-widget table td .btn.btn-primary {
+    background: transparent !important;
+}
+.student-certificate {
+    position: relative;
+}
+
+
+/* line 374, ../../xampp/htdocs/infixeduB/public/backend/scss/admin/_student.scss */
+
+.student-certificate .signature {
+    font-size: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+/* line 380, ../../xampp/htdocs/infixeduB/public/backend/scss/admin/_student.scss */
+
+.student-certificate .certificate-position {
+    position: absolute;
+    top: 49%;
+    left: 9%;
+    right: 9%;
+    bottom: 14%;
+}
+.student-certificate .certificate-position {
+    left: 10% !important;
+    top: 20% !important;
+    /* right: 9%; */
+}
+
+.student-certificate .certificate-position {
+    position: absolute;
+    top: 49%;
+    bottom: 14%;
+    left: 65px !important;
+    right: 65px !important;
+    margin: auto;
+}
+
+.mt_m_10 {
+    margin-top: -10px;
+}
+
+.bootstrap-datetimepicker-widget table td .btn.btn-primary:hover {
+    background: linear-gradient(90deg, #7c32ff 0%, #c738d8 51%, #7c32ff 100%) !important;
+    color: #fff !important;
+    transition: all 0.4s ease 0s;
+    background-size: 200% auto;
+}
+
+.div_50 {
+    width: 50%;
+    float: left;
+}
+
+.div_100 {
+    width: 100%;
+    float: left;
+}
+fieldset,
+label {
+    margin: 0;
+    padding: 0;
+}
+
+.rating {
+    border: none;
+    float: left;
+}
+
+.rating > input {
+    display: none;
+}
+
+.rating > label:before {
+    margin: 0 3px;
+    font-size: 20px;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+
+.rating > .half:before {
+    content: "\f089";
+    position: absolute;
+}
+
+.rating > label {
+    color: #ddd;
+    float: right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label,
+
+    /* show gold star when clicked */
+
+.rating:not(:checked) > label:hover,
+
+    /* hover current star */
+
+.rating:not(:checked) > label:hover ~ label {
+    color: #ffd700;
+}
+
+
+/* hover previous stars in list */
+
+.rating > input:checked + label:hover,
+
+    /* hover current star when changing rating */
+
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+
+    /* lighten current selection */
+
+.rating > input:checked ~ label:hover ~ label {
+    color: #ffed85;
+}
+.student-certificate .certificate-position {
+    position: absolute;
+    top: 49%;
+    left: 65px !important;
+    right: 0 !important;
+    bottom: 14%;
+    left: 65px !important;
+    right: 65px !important;
+    margin: auto;
+}

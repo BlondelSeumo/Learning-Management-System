@@ -1,0 +1,12 @@
+{
+    "name": "BankPayment",
+    "alias": "bankpayment",
+    "description": "",
+    "providers": [
+        "Modules\\BankPayment\\Providers\\BankPaymentServiceProvider"
+    ],
+    "minimumCoreVersion": "",
+    "title": "",
+    "version": 1,
+    "author": "Infix LMS"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Appearance",
+    "alias": "appearance",
+    "description": "",
+    "providers": [
+        "Modules\\Appearance\\Providers\\AppearanceServiceProvider"
+    ],
+
+    "minimumCoreVersion": "",
+    "title": "",
+    "version":1,
+    "author": ""
+}

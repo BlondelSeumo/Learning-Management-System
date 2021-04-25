@@ -1,0 +1,59 @@
+.slicknav_btn {
+    padding: 0px;
+    border: 0px;
+  }
+  
+  .slicknav_btn .slicknav_icon-bar {
+    background-color: #ff4357;
+    -webkit-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+    display: block;
+    width: 22px;
+    height: 2px;
+  }
+  .home_2{
+    .slicknav_btn .slicknav_icon-bar{
+      background-color: #4543de;
+    }
+  }
+  .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+    margin-top: 5px;
+  }
+  
+  .slicknav_btn .slicknav_icon-bar:nth-child(2) {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+
+  }
+  
+  .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(2) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  
+  .slicknav_btn .slicknav_icon-bar:nth-child(3) {
+
+    opacity: 1;
+  }
+  
+  .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(3) {
+    opacity: 0;
+  }
+  
+  .slicknav_btn .slicknav_icon-bar:nth-child(1) {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    top: 0;
+  }
+  
+  .slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 7px;
+    position: relative;
+  }

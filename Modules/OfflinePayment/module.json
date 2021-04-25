@@ -1,0 +1,13 @@
+{
+    "name": "OfflinePayment",
+    "alias": "offlinepayment",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\OfflinePayment\\Providers\\OfflinePaymentServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Zoom",
+    "alias": "zoom",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Zoom\\Providers\\ZoomServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "Zoom",
+    "version": 1,
+    "author": "Infix LMS"
+}

@@ -1,0 +1,33 @@
+.bootstrap-datetimepicker-widget table td .btn.btn-primary {
+    background: transparent !important;
+}
+
+.student-certificate .certificate-position {
+    position: absolute;
+    top: 49%;
+    bottom: 14%;
+    left: 65px !important;
+    right: 65px !important;
+    margin: auto;
+}
+
+.mt_m_10 {
+    margin-top: -10px;
+}
+
+.bootstrap-datetimepicker-widget table td .btn.btn-primary:hover {
+    background: linear-gradient(90deg, #7c32ff 0%, #c738d8 51%, #7c32ff 100%) !important;
+    color: #fff !important;
+    transition: all 0.4s ease 0s;
+    background-size: 200% auto;
+}
+
+.div_50 {
+    width: 50%;
+    float: left;
+}
+
+.div_100 {
+    width: 100%;
+    float: left;
+}

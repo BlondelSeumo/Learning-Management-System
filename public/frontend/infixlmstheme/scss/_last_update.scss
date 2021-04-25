@@ -1,0 +1,307 @@
+/* no complied  */
+/* line 19, G:/laragon/www/Tuties/scss/_course_description.scss */
+.course__play_warp {
+    background: #fff;
+}
+
+@media (max-width: 575.98px) {
+    /* line 19, G:/laragon/www/Tuties/scss/_course_description.scss */
+    .course__play_warp {
+        margin-top: 30px;
+    }
+}
+
+/* line 24, G:/laragon/www/Tuties/scss/_course_description.scss */
+.course__play_warp .play_warp_header {
+    padding: 15px 15px 8px 15px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+/* line 29, G:/laragon/www/Tuties/scss/_course_description.scss */
+.course__play_warp .course__play_list {
+    min-height: 450px;
+    max-height: 450px;
+    overflow: auto;
+}
+
+/* line 34, G:/laragon/www/Tuties/scss/_course_description.scss */
+.course__play_warp .course__play_list .single_play_list a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 18px;
+}
+
+/* line 40, G:/laragon/www/Tuties/scss/_course_description.scss */
+.course__play_warp .course__play_list .single_play_list a.active .course_play_name {
+    color: #D12053;
+}
+
+/* line 42, G:/laragon/www/Tuties/scss/_course_description.scss */
+.course__play_warp .course__play_list .single_play_list a.active .course_play_name i {
+    color: #D12053;
+}
+
+/* line 48, G:/laragon/www/Tuties/scss/_course_description.scss */
+.course__play_warp .course__play_list .single_play_list a:hover .course_play_name {
+    color: #D12053;
+}
+
+/* line 50, G:/laragon/www/Tuties/scss/_course_description.scss */
+.course__play_warp .course__play_list .single_play_list a:hover .course_play_name i {
+    color: #D12053;
+}
+
+/* line 55, G:/laragon/www/Tuties/scss/_course_description.scss */
+.course__play_warp .course__play_list .single_play_list a .course_play_name {
+    font-size: 14px;
+    font-weight: 400;
+    color: #261F47;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    transition: .3s;
+}
+
+/* line 63, G:/laragon/www/Tuties/scss/_course_description.scss */
+.course__play_warp .course__play_list .single_play_list a .course_play_name i {
+    font-size: 15px;
+    color: #7B7887;
+    margin-right: 9px;
+}
+
+/* line 69, G:/laragon/www/Tuties/scss/_course_description.scss */
+.course__play_warp .course__play_list .single_play_list a .course_play_duration {
+    font-size: 12px;
+    font-weight: 400;
+    color: #7B7887;
+}
+/* line 1, G:/laragon/www/Tuties/scss/_fullview.scss */
+.course_fullview_wrapper {
+    min-height: 100vh;
+    background-image: url(../img/banner/full_view_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 340px);
+    transition: .3s;
+}
+
+/* line 13, G:/laragon/www/Tuties/scss/_fullview.scss */
+.course_fullview_wrapper.active {
+    width: calc(100% - 0px);
+}
+
+/* line 16, G:/laragon/www/Tuties/scss/_fullview.scss */
+.course_fullview_wrapper .video_iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+/* line 24, G:/laragon/www/Tuties/scss/_fullview.scss */
+.course_fullview_wrapper .course__play_warp {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 340px;
+    transform: translateX(0%);
+    transition: .3s;
+    z-index: 5;
+}
+
+/* line 32, G:/laragon/www/Tuties/scss/_fullview.scss */
+.course_fullview_wrapper .course__play_warp.active {
+    transform: translateX(100%);
+}
+
+/* line 35, G:/laragon/www/Tuties/scss/_fullview.scss */
+.course_fullview_wrapper .course__play_warp .course__play_list {
+    min-height: calc(100vh - 50px);
+    max-height: calc(100vh - 50px);
+}
+
+/* line 39, G:/laragon/www/Tuties/scss/_fullview.scss */
+.course_fullview_wrapper .course__play_warp .play_toggle_btn {
+    width: 50px;
+    height: 50px;
+    background: #261F47;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -50px;
+    cursor: pointer;
+}
+
+/* line 49, G:/laragon/www/Tuties/scss/_fullview.scss */
+.course_fullview_wrapper .course__play_warp .play_toggle_btn i {
+    color: #fff;
+    font-size: 20px;
+}
+.deposit_btn{
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.deposit_btn img {
+    width: 120px;
+}
+
+.payment_wrapper {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 15px;
+}
+
+.payment_wrapper{}
+.payment_wrapper .payment_wrapper_single{}
+.payment_wrapper .payment_wrapper_single .payment_area{}
+.payment_wrapper .payment_wrapper_single .payment_area{}
+
+
+/* payment_method_wrapper  */
+.payment_method_wrapper{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 15px;
+}
+.Payment_btn{
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    @media #{$tab} {
+        padding: 0 15px;
+    }
+}
+.Payment_btn img {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+
+.instractos_details_wrapper .instractos_profile .thumb {
+    max-height: 330px;
+}
+
+.instractos_details_wrapper .instractos_profile .thumb img {
+    border-radius: 0%;
+}
+
+.payment_btn_text {
+    padding: 0px 10px;
+    background: #FB1159;
+    border-radius: 5px;
+    color: #fff !important;
+    font-size: 18px !important;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Payment_btn2{
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 30px;
+    @media #{$tab} {
+        padding: 0 15px;
+    }
+}
+.Payment_btn2 img {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.payment_btn_text2 {
+    padding: 0px 10px;
+    background: #FB1159;
+    border-radius: 5px;
+    color: #fff !important;
+    font-size: 18px !important;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+//new
+
+.deposit_lists_wrapper{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 15px;
+    margin-bottom: 50px;
+}
+.deposit_lists_wrapper .single_deposite{
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.deposit_lists_wrapper .single_deposite img{
+    width: 100%;
+    max-width: 80px;
+}
+.deposit_lists_wrapper .single_deposite button {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: transparent;
+    border: 0;
+}
+.deposit_lists_wrapper .single_deposite .Payment_btn2 img {
+    width: 100% !important;
+    max-width: 80px !important;
+}
+@media (max-width: 575.98px) {
+    .deposit_lists_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+
+
+
+
+

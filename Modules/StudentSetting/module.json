@@ -1,0 +1,14 @@
+{
+    "name": "StudentSetting",
+    "alias": "studentsetting",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\StudentSetting\\Providers\\StudentSettingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

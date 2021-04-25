@@ -1,0 +1,26 @@
+<?php
+
+return [
+	'Student' => 'ছাত্র',
+	'Successfully' => 'সাফল্যের সাথে',
+	'Deleted' => 'মোছা হয়েছে',
+	'Image size is too large' => 'চিত্রের আকার খুব বড়',
+	'Yes' => 'হ্যাঁ',
+	'Enable' => 'সক্ষম করুন',
+	'Delete' => 'মুছে ফেলা',
+	'Disable' => 'অক্ষম করুন',
+	'Cancel' => 'বাতিল',
+	'Are you sure want to' => 'আপনি কি চান নিশ্চিত?',
+	'Course' => 'কোর্স',
+	'Cart' => 'কার্ট',
+	'Remove' => 'অপসারণ',
+	'Oops' => 'উফ!',
+	'Message' => 'বার্তা',
+	'Activated' => 'সক্রিয়',
+	'Operation Failed' => 'অপারেশন ব্যর্থ হয়েছে',
+	'Account was Created successfully, please Check you Email' => 'অ্যাকাউন্টটি সফলভাবে তৈরি করা হয়েছিল, দয়া করে আপনার ইমেল চেক করুন',
+	'Deactivated' => 'নিষ্ক্রিয় করা হয়েছে',
+	'Oops, Something Went Wrong' => 'কিছু ভুল হয়েছে',
+	'Added' => 'যুক্ত হয়েছে',
+	'this' => 'এই',
+];

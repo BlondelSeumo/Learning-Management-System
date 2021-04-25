@@ -1,0 +1,210 @@
+.dashboard_main_wrapper{
+    display: flex;
+    .sidebar{
+
+    }
+    .dashboard_part{
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffeaef+0,40e8dd+100&0+0,0.1+100 */
+        background: -moz-linear-gradient(top,  rgba(255,234,239,0) 0%, rgba(64,232,221,0.1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(255,234,239,0) 0%,rgba(64,232,221,0.1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgba(255,234,239,0) 0%,rgba(64,232,221,0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffeaef', endColorstr='#1a40e8dd',GradientType=0 ); /* IE6-9 */
+        @media #{$lg_device} {
+            width: calc(100% - 280px);
+        }
+        @media #{'(min-width: 1200px) and (max-width: 1599.98px) '} {
+            width: calc(100% - 280px);
+        }
+        @media #{'(min-width: 1600px) '} {
+            width: calc(100% - 345px);
+        }
+        @media #{$tab2} {
+            width: 100%;
+        }
+    }
+    .main_content_iner{
+        &.main_content_padding{
+            @media #{'(min-width: 320px) and (max-width: 767.98px) '} {
+               padding: 70px 0 5px 0;
+            }
+            @media #{'(min-width: 768px) and (max-width: 991.98px) '} {
+                padding: 81px 20px 57px 20px;
+            }
+            @media #{$lg_device} {
+                padding: 81px 20px 57px 20px;
+            }
+            @media #{'(min-width: 1200px)'} {
+                padding: 81px 40px 57px 40px;
+            }
+            @media #{'(min-width: 1850px)'} {
+                padding: 81px 361px 57px 135px;
+            }
+
+        }
+        &.wishList_main_content{
+            @media #{$tab} {
+                padding: 70px 0 43px 0;
+             }
+            @media #{$medium_device} {
+                padding: 81px 40px 118px 40px;
+             }
+            @media #{$lg_device} {
+                padding: 81px 40px 118px 40px;
+             }
+             @media #{'(min-width: 1200px)'} {
+                padding: 81px 40px 57px 40px;
+            }
+            @media #{'(min-width: 1700.98px)'} {
+                padding: 81px 240px 118px 135px;
+            }
+
+        }
+        .dashboard_banner{
+            display: grid;
+            grid-template-columns:422px auto ;
+            grid-gap: 55px;
+            align-items: center;
+            margin-bottom: 90px;
+            @media #{'(min-width: 320px) and (max-width: 767.98px) '} {
+                grid-template-columns: 1fr;
+                margin-bottom: 40px;
+                grid-gap: 20px;
+            }
+            @media #{'(min-width: 768px) and (max-width: 991.98px) '} {
+                grid-template-columns: 1fr;
+                margin-bottom: 40px;
+                grid-gap: 20px;
+            }
+            @media #{'(min-width: 992px) and (max-width: 1199.98px) '} {
+                grid-template-columns: 1fr;
+                margin-bottom: 40px;
+                grid-gap: 20px;
+            }
+            .thumb{
+                background-image: url(../img/banner/dashboard_banner.jpg);
+                height: 300px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+            }
+            .banner_info{
+                max-width: 452px;
+                h4{
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 34px;
+                    color: #202E3B;
+                    margin-bottom: 10px;
+                    a{
+                        &:hover{
+                            color: $purple_color;
+                            border-color: $purple_color;
+                            background: transparent ;
+                        }
+                    }
+                }
+                p{
+                    font-weight: 500;
+                }
+                .progress{
+                    height: 10px;
+                    background: #E0E0E0;
+                    border-radius: 10px;
+                    margin: 26px 0 19px 0;
+                    .progress-bar{
+                        background: #FB1159;
+                        border-radius: 10px;
+                    }
+                }
+                .course_qualification{
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    .rateing {
+                        border: 1px solid #F5F5F5;
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: $theme_color;
+                        padding: 0px 16px;
+                        display: inline-flex;
+                        align-items: center;
+                        height: 40px;
+                        margin-right: 5px;
+
+                        span {
+                            margin-right: 7px;
+                        }
+
+                        i {
+                            color: #FFC107;
+                        }
+                    }
+                    p{
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #687083;
+                        margin-right: 30px;
+                    }
+                    .starts{
+                        margin-right: 16px;
+                        i{
+                            color: #FFC107;
+                            font-size: 15px;
+                            &:not(:last-child){
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                    span{
+                        color: #373737;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+        .recommended_courses{
+            padding-bottom: 57px;
+            @media #{'(min-width: 320px) and (max-width: 767.98px) '}{
+                padding-bottom: 34px;
+            }
+        }
+    }
+}
+
+// my_courses_wrapper
+.my_courses_wrapper{
+    padding-bottom: 32px;
+    .couse_wizged{
+        margin-bottom: 55px;
+        @media #{$tab} {
+            margin-bottom: 32px;
+        }
+    }
+    .quiz_wizged{
+        margin-bottom: 55px;
+        @media #{$tab} {
+            margin-bottom: 32px;
+        }
+    }
+}
+
+
+
+// purchase_history_wrapper
+.purchase_history_wrapper{
+    @media #{'(min-width: 320px) and (max-width: 767.98px) '} {
+        padding: 70px 0 75px 0;
+     }
+     @media #{'(min-width: 768px) and (max-width: 991.98px) '} {
+         padding: 81px 40px 150px 40px;
+     }
+     @media #{$lg_device} {
+        padding: 81px 40px 134px 40px;
+     }
+     @media #{'(min-width: 1200px)'} {
+        padding: 81px 30px 150px 30px;
+     }
+     @media #{'(min-width: 1850px)'} {
+         padding: 81px 220px 150px 135px;
+     }
+}

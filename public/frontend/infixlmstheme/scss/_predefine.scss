@@ -1,0 +1,500 @@
+.primary_checkbox {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    align-items: center;
+    h5{
+        font-size: 14px;
+        font-weight: 500;
+        font-family: $font2;
+        color: $theme_color;
+        margin-bottom: 0;
+    }
+    .label_name{
+        font-size: 14px;
+        font-weight: 500;
+        font-family: $font2;
+        color: $theme_color;
+        margin-bottom: 0;
+    }
+    &.white_checkbox{
+      .checkmark:after{
+        border-color: $white;
+      }
+    }
+    .checkmark{
+        position: relative;
+        width: 18px;
+        height: 18px;
+        top: 0;
+        left: 0;
+        display: block;
+        cursor: pointer;
+        line-height: 18px;
+        flex: 18px 0 0;
+        border-radius: 3px;
+    }
+    // .checkmark:after {
+    //     content: "";
+    //     position: absolute;
+    //     display: none;
+    // }
+    input{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        visibility: hidden;
+    }
+   input:checked ~ .checkmark:after {
+    // background: linear-gradient(90deg, #7C32FF 0.47%, #C738D8 100%);
+    width: 100%;
+    height: 100%;
+    border: 0;
+    // box-shadow: 0px 5px 10px rgba(108, 39, 255, 0.25);
+    transition: .3s;
+    transform: scale(0);
+      }
+   input:checked ~ .checkmark{
+    background: $purple_color;
+    // width: 100%;
+    // height: 100%;
+    transition: .3s;
+      }
+    input:checked ~ .checkmark::before {
+        content: "\e64c";
+        font-family: "themify";
+        position: absolute;
+        display: block;
+        top: 0px;
+        left: 3px;
+        text-indent: 1px;
+        color: #828BB2;
+        background-color: transparent;
+        border: 0px;
+        -webkit-transform: rotate(8deg);
+        -moz-transform: rotate(8deg);
+        -ms-transform: rotate(8deg);
+        -o-transform: rotate(8deg);
+        transform: rotate(8deg);
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 18px;
+        z-index: 99;
+        color: #fff;
+        transition: .3s;
+    }
+    
+ .checkmark:after {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: transparent;
+    border-radius: 3px;
+    border: 1px solid #E9E7F7;
+    transition: .3s;
+    transform: scale(1);
+  }
+  }
+
+  .primary_checkbox2 {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    align-items: center;
+    h5{
+        font-size: 16px;
+        font-weight: 600;
+        font-family: $font2;
+        color: $theme_color;
+        margin-bottom: 0;
+    }
+    .label_name{
+        font-size: 16px;
+        font-weight: 600;
+        font-family: $font2;
+        color: $theme_color;
+        margin-bottom: 0;
+    }
+    &.white_checkbox{
+      .checkmark:after{
+        border-color: $white;
+      }
+    }
+    .checkmark{
+        position: relative;
+        width: 18px;
+        height: 18px;
+        top: 0;
+        left: 0;
+        display: block;
+        cursor: pointer;
+        line-height: 18px;
+        flex: 18px 0 0;
+        border-radius: 50%;
+    }
+    // .checkmark:after {
+    //     content: "";
+    //     position: absolute;
+    //     display: none;
+    // }
+    input{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        visibility: hidden;
+    }
+   input:checked ~ .checkmark:after {
+    // background: linear-gradient(90deg, #7C32FF 0.47%, #C738D8 100%);
+    width: 100%;
+    height: 100%;
+    border: 0;
+    // box-shadow: 0px 5px 10px rgba(108, 39, 255, 0.25);
+    transition: .3s;
+    transform: scale(0);
+      }
+   input:checked ~ .checkmark{
+    background: #20E007;
+    // width: 100%;
+    // height: 100%;
+    transition: .3s;
+      }
+    input:checked ~ .checkmark::before {
+        content: "\e64c";
+        font-family: "themify";
+        position: absolute;
+        display: block;
+        top: 0px;
+        left: 3px;
+        text-indent: 1px;
+        color: #828BB2;
+        background-color: transparent;
+        border: 0px;
+        -webkit-transform: rotate(8deg);
+        -moz-transform: rotate(8deg);
+        -ms-transform: rotate(8deg);
+        -o-transform: rotate(8deg);
+        transform: rotate(8deg);
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 18px;
+        z-index: 99;
+        color: #fff;
+        transition: .3s;
+        font-weight: 700;
+    }
+    
+ .checkmark:after {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #E9E7F7;
+    transition: .3s;
+    transform: scale(1);
+  }
+  &.error_ans{
+      input:checked ~ .checkmark::before {
+        content: "\e646";
+        font-family: "themify";
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 5px;
+        text-indent: 1px;
+        color: #828BB2;
+        background-color: transparent;
+        border: 0px;
+        transform: rotate(0deg);
+        font-size: 6px;
+        font-weight: 600;
+        line-height: 18px;
+        z-index: 99;
+        color: #fff;
+        transition: .3s;
+        font-weight: 700;
+    }
+    input:checked ~ .checkmark{
+      background: #FF1414;
+      transition: .3s;
+        }
+  }
+  }
+.primary_bulet_checkbox {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  align-items: center;
+  h5{
+      font-size: 16px;
+      font-weight: 500;
+      font-family: $font2;
+      color: $theme_color;
+      margin-bottom: 0;
+  }
+  .label_name{
+      font-size: 16px;
+      font-weight: 500;
+      font-family: $font2;
+      color: $theme_color;
+      margin-bottom: 0;
+  }
+  &.white_checkbox{
+    .checkmark:after{
+      border-color: $white;
+    }
+  }
+  .checkmark{
+      position: relative;
+      width: 18px;
+      height: 18px;
+      top: 0;
+      left: 0;
+      display: block;
+      cursor: pointer;
+      line-height: 18px;
+      flex: 18px 0 0;
+      border-radius: 50%;
+  }
+  // .checkmark:after {
+  //     content: "";
+  //     position: absolute;
+  //     display: none;
+  // }
+  input{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      visibility: hidden;
+  }
+  input:checked ~ .checkmark:after {
+  width: 100%;
+  height: 100%;
+  transition: .3s;
+  transform: scale(1);
+  border-color: $purple_color;
+    }
+  input:checked ~ .checkmark{
+  // background: $purple_color;
+  // width: 100%;
+  // height: 100%;
+  transition: .3s;
+    }
+  input:checked ~ .checkmark::before {
+      transform: translate(-50% ,-50%) scale(1) ;
+  }
+  .checkmark::before {
+    position: absolute;
+    background: $purple_color;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%) scale(0) ;
+    transition: .3s;
+}
+.checkmark:after {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 18px;
+  height: 18px;
+  background: transparent;
+  border-radius: 50%;
+  border: 1px solid #E9E7F7;
+  transition: .3s;
+  transform: scale(1);
+}
+}
+
+  .play_button{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    color: $purple_color;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+    font-size: 25px;
+    transition: .3s;
+    cursor: pointer;
+    &:hover{
+        background: $purple_color;
+        color: $white;
+    }
+}
+
+.theme__overlay{
+  position: relative;
+  z-index:2;
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0A0B21;
+    opacity: .4;
+    z-index: -1;
+  }
+}
+
+.lms_tabmenu{
+  background: #F8F8FE;
+  border-radius: 10px;
+  display: inline-flex;
+  li{
+    a{
+      font-size: 16px;
+      font-weight: 600;
+      font-family: $font1;
+      color: $theme_color;
+      border-radius: 10px;
+      padding: 13px 39px;
+      @media #{$tab} {
+        padding: 13px 30px
+      }
+      @media #{$large_mobile} {
+        padding: 13px 27px;
+      }
+      &.active{
+        background: $purple_color;
+        color: $white;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+.theme_border{
+  border-top: 1px solid #E9E7F7; 
+}
+
+.theme_according{
+  button{
+    &::before {
+      left: 25px;
+      position: absolute;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+      content: "\e622";
+      font-family: 'themify';
+      font-size: 16px;
+      color: #373737;
+      font-weight: 400;
+    }
+    &.collapsed::before {
+      content: "\e61a";
+      font-family: 'themify';
+    
+    }
+  }
+}
+.theme_according{
+  .card{
+    margin-bottom: 15px;
+    border: 0;
+    .card-header{
+      border: 1px solid #E9E7F7;
+      border-radius: 5px;
+      background: transparent ;
+      padding: 0;
+     
+      h5{
+        button{
+          font-family: $font1;
+          font-size: 18px;
+          font-weight: 600;
+          color: $theme_color;
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          border: 0;
+          padding: 11.5px 25px 11.5px 50px;
+          text-decoration: none !important;
+          @media #{$tab} {
+            flex-wrap: wrap;
+          }
+          span{
+            font-size: 14px;
+            font-weight: 500;
+            font-family: $font1;
+            color: #373737;
+          }
+        }
+      }
+    }
+  }
+  .card-body{
+    padding: 0;
+    padding-top: 20px;
+    .curriculam_list{
+      .curriculam_single{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        align-items: center;
+        @media #{$tab} {
+          flex-wrap: wrap;
+        }
+        &:last-child{
+          margin-bottom: 15px;
+        }
+        .curriculam_left{
+          display: flex;
+          align-items: center;
+          @media #{$tab}{
+            margin-bottom: 10px;
+          }
+          i{
+            font-size: 18px;
+            font-weight: 400;
+            margin-right: 15px;
+          }
+          span{
+            font-size: 16px;
+            font-weight: 500;
+            color:#373737 ;
+          }
+        }
+        .curriculam_right{
+          display: flex;
+          align-items: center;
+          
+          .theme_btn_lite{
+            margin-right: 30px;
+          }
+          span{
+            font-size: 14px;
+            font-weight: 500;
+            color: #373737 ;
+          }
+        }
+      }
+    }
+  }
+}

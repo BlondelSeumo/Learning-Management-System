@@ -1,0 +1,23 @@
+{
+    "Zoom": {
+        "migration": [
+            "2020_06_10_060128_create_zoom_meetings_table.php",
+            "2020_06_10_134834_create_zoom_meeting_users_table.php",
+            "2020_06_16_051034_create_zoom_settings_table.php"
+        ],
+        "names": [
+            "zoom_meetings",
+            "zoom_meeting_users",
+            "zoom_settings"
+        ],
+        "versions": [
+            "0.1"
+        ],
+        "url": [
+            "https://spondonit.com/contact"
+        ],
+        "notes": [
+            "This is Zoom module for live virtual class and meeting in this system at a time. Thanks for using."
+        ]
+    }
+}

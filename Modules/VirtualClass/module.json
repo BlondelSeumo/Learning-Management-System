@@ -1,0 +1,16 @@
+{
+    "name": "VirtualClass",
+    "alias": "virtualclass",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\VirtualClass\\Providers\\VirtualClassServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "VirtualClass",
+    "version":1,
+    "author": "Infix LMS"
+}

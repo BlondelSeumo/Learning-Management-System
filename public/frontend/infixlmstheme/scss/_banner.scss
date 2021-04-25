@@ -1,0 +1,46 @@
+.banner_area{
+    background-image: url(../img/banner/banner.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 234px;
+    padding-bottom: 336px;
+    @media #{$tab} {
+        padding-top: 80px;
+        padding-bottom: 140px;
+    }
+    @media #{$medium_device} {
+        padding-top: 190px;
+        padding-bottom: 236px;
+    }
+    .banner_text{
+        max-width: 700px;
+        h3{
+            font-size: 60px;
+            line-height: 76px;
+            margin-bottom: 15px;
+            color: $white;
+            font-family: $font1;
+            font-weight: 900;
+            @media #{$tab} {
+                font-size: 35px;
+                line-height: 51px;
+            }
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+            color: $white;
+            line-height: 26px;
+            font-family: $font2;
+            margin-bottom: 51px;
+        }
+        .large_search_field{
+            @media #{$small_mobile} {
+                width: 100%;
+            }
+        }
+    }
+}

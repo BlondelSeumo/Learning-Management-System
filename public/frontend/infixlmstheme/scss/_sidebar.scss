@@ -1,0 +1,91 @@
+.sidebar{
+    background-color: #fff;
+    min-height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    padding-bottom: 50px;
+    width: 345px;
+    z-index: 999;
+    flex: 345px 0 0;
+    border-right: 1px solid #E8ECF3;
+    @media #{$lg_device} {
+        flex: 280px 0 0;
+        width: 280px;
+    }
+    @media #{'(min-width: 1200px) and (max-width: 1599.98px) '} {
+        flex: 280px 0 0;
+        width: 280px;
+    }
+    @media #{$tab2}{
+        left: -280px;
+        transition: .5s;
+        top: 0;
+        width: 280px;
+        position: fixed;
+    }
+    .logo{ 
+        padding: 28.5px 50px;
+        border-bottom: 1px solid #E8ECF3;
+        @media #{$tab2}{
+            padding: 24px;
+        }
+        img{
+            @media #{$tab2}{
+                max-width: 150px;
+            }
+        }
+    }
+    ul{
+        padding: 30px 65px 30px 30px ;
+        @media #{$tab2}{
+            padding: 30px;
+        }
+        @media #{$lg_device}{
+            padding: 30px;
+        }
+        @media #{'(min-width: 1200px) and (max-width: 1599.98px) '}{
+            padding: 30px 30px 30px 30px ;
+        }
+        li{
+            a{
+                padding: 13px 20px;
+                .menu_icon{
+                    margin-right: 10px;
+                    line-height: 1;
+                    img{
+
+                    }
+                }
+                span{
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #202E3B;
+                    font-family: $font1;
+                }
+                &.active,&:hover{
+                    background: #F9F9FD;
+                }
+            }
+        }
+    }
+}
+@media #{$tab2}{
+    .active_sidebar{
+        left: 0;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+    }
+}
+.sidebar_close_icon i {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    right: 30px;
+    font-size: 25px;
+    top: 23px;
+    cursor: pointer;
+    color: $color_2;
+}

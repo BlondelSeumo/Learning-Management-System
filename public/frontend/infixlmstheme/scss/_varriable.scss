@@ -1,0 +1,32 @@
+// fonts
+$font1: 'Cerebri Sans';
+$font2:'Jost', sans-serif;
+// theme used color here 
+
+$gray-color: #ddd;
+$color_1: #373737;
+$color_2:#202E3B;
+$color_3: #333333;
+
+// theme colors 
+$theme_color :#202E3B;
+$theme_color2 : #627ae4;
+$theme_color3 : #ffd500;
+$white : #fff;
+// btn bg 
+$purple_color :#FB1159;
+$btn_bg_2 : #4543de;
+
+// responsive query 
+$small_mobile: '(max-width: 575.98px)';
+$large_mobile: '(min-width: 576px) and (max-width: 767.98px)';
+$tab: '(max-width: 767.98px)';
+$tab2: '(max-width: 991.98px)';
+$medium_device: '(min-width: 768px) and (max-width: 991.98px) ';
+$lg_device: '(min-width: 992px) and (max-width: 1199.98px)';
+$large_xl: '(min-width: 1200px) and (max-width: 1399.98px)';
+$xl_device: '(min-width: 1200px)';
+$max_lg: '(max-width: 1199.98px)';
+
+$tab_device:'only screen and (min-width: 768px) and (max-width: 991.98px)';
+$big_screen:'only screen and (min-width: 1200px) and (max-width: 1440px)';

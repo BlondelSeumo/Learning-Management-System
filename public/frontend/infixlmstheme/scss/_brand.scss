@@ -1,0 +1,21 @@
+.brand_area{
+    .barnd_wrapper{
+        background: $white;
+        box-shadow: 0 3px 20px rgba(0, 0, 0,.05) ;
+        padding: 50px 40px;
+        position: relative;
+        margin-top: -90px;
+        border-radius: 20px;
+        @media #{$tab} {
+            margin-top: 0;
+            padding: 40px 30px;
+        }
+        .single_brand{
+            text-align: center;
+            img{
+                width: auto;
+                display: inline-block;
+            }
+        }
+    }
+}

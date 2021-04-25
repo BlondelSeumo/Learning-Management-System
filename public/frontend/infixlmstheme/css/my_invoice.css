@@ -1,0 +1,220 @@
+.common_table_header .table_btn_wrap > ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.common_table_header .table_btn_wrap > ul > li {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.box_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.main-title h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #202E3B;
+}
+
+.primary_btn {
+    color: #202E3B;
+    border: 1px solid #EE2330;
+    display: inline-block;
+    padding: 7px 23px;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: transparent;
+    white-space: nowrap;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.primary_btn:hover {
+    border: 1px solid #EE2330;
+    color: #fff;
+    background: #EE2330;
+}
+
+.border_none {
+    border: 0px solid transparent;
+    border-top: 0px solid transparent !important;
+}
+
+.invoice_part_iner {
+    background-color: #fff;
+    padding: 70px 105px;
+    box-shadow: 0px 10px 15px rgba(235, 215, 241, 0.22);
+}
+
+.invoice_part_iner h4 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+
+}
+
+.table_border thead {
+    background-color: #F6F8FA;
+}
+
+.table td, .table th {
+    padding: 10px 0;
+    vertical-align: top;
+    border-top: 0 solid transparent;
+    color: #79838b;
+}
+
+.table td, .table th {
+    padding: 10px 0;
+    vertical-align: top;
+    border-top: 0 solid transparent;
+    color: #79838b;
+}
+
+.table_border tr {
+    border-bottom: 1px solid #f1f2f3 !important;
+}
+
+.table_border tr:last-child {
+    border-bottom: 0 solid transparent !important;
+}
+
+th p span, td p span {
+    color: #212E40;
+}
+
+.table th {
+    color: #00273d;
+    font-weight: 300;
+    border-bottom: 1px solid #f1f2f3 !important;
+    background-color: #fafafa;
+}
+
+td h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #202E3B;
+}
+
+td h5 span {
+    color: #707DB7;
+}
+
+td h6 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #202E3B;
+}
+
+td h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #202E3B;
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+.table_header_logo {
+    padding: 10px 0 40px !important;
+}
+
+.table_header_logo td {
+    width: 50%;
+    padding: 10px 0 40px !important;
+    border-top: 0px solid transparent;
+}
+
+.table_header_logo img {
+    margin-top: 12px;
+}
+
+.table_header_logo .btn_3 {
+    text-align: right;
+    float: right;
+}
+
+.invoice_btn .btn_1 {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.invoice_btn .btn_1 i {
+    margin-right: 8px;
+}
+
+.invoice_btn .btn_1:hover {
+    color: #fff;
+}
+
+.invoice_btn .download {
+    background-color: #E63E45;
+}
+
+.invoice_btn .print {
+    background-color: #2EC9B8;
+    border: 1px solid #2EC9B8;
+}
+
+.table_style th, .table_style td {
+    padding: 20px;
+}
+
+td p {
+    color: #707DB7;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+    line-height: 24px
+}
+
+hr {
+    border-top: 1px solid #202E3B !important;
+    opacity: .1 !important;
+}
+
+.table.blueish_table thead th {
+
+    color: #202E3B;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-top: 0px;
+    padding: 25px 12px 25px 20px !important;
+    white-space: nowrap;
+
+}
+
+.table.blueish_table tbody td {
+
+    padding: 25px 12px 25px 20px !important;
+    background: #F6F7FB;
+    font-weight: 400;
+}
+
+.table.blueish_table tbody td h6 {
+    font-weight: 400;
+}
+
+.tax_vat_amount_table td {
+    padding: 0 0 9px 0 !important;
+}
+
+.invoice_grid {
+    display: grid;
+    grid-template-columns: 90px auto;
+    margin-bottom: 10px;
+    grid-gap: 25px;
+}

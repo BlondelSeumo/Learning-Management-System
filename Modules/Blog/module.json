@@ -1,0 +1,17 @@
+{
+    "name": "Blog",
+    "alias": "blog",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Blog\\Providers\\BlogServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "minimumCoreVersion": "",
+    "title": "Blog",
+    "version":1,
+    "author": "Infix LMS"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "FooterSetting",
+    "alias": "footersetting",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\FooterSetting\\Providers\\FooterSettingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "minimumCoreVersion": "",
+    "title": "FooterSetting",
+    "version":1,
+    "author": "Infix LMS"
+}

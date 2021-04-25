@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'Division' => 'বিভাগ',
+    'District' => 'জেলা',
+    'Upazila' => 'উপজেলা',
+    'Upazila List' => 'উপজেলা তালিকা',
+    'Bangla Name' => 'বাংলা নাম',
+    'Edit Info Upazila' => 'তথ্য সম্পাদনা উপজেলা',
+    'Division List' => 'বিভাগ তালিকা',
+    'Edit Info Division' => 'তথ্য বিভাগ সম্পাদনা করুন',
+    'District List' => 'জেলা তালিকা',
+    'Upazila has been added Successfully' => 'উপজেলা সফলভাবে যুক্ত করা হয়েছে',
+    'Upazila has been updated Successfully' => 'উপজেলা সফলভাবে আপডেট করা হয়েছে',
+    'Upazila has been deleted Successfully' => 'উপজেলা সফলভাবে মুছে ফেলা হয়েছে',
+    'Division has been added Successfully' => 'বিভাগ সফলভাবে যোগ করা হয়েছে',
+    'Division has been updated Successfully' => 'বিভাগ সফলভাবে আপডেট করা হয়েছে',
+    'Division has been deleted Successfully' => 'বিভাগ সফলভাবে মোছা হয়েছে',
+    'District has been added Successfully' => 'জেলা সফলভাবে যোগ করা হয়েছে',
+    'District has been updated Successfully' => 'জেলা সফলভাবে আপডেট করা হয়েছে',
+    'District has been deleted Successfully' => 'জেলা সফলভাবে মোছা হয়েছে',
+    'Tax has been deleted Successfully' => 'কর সফলভাবে মোছা হয়েছে',
+    'Tax' => 'কর',
+    'Tax List' => 'করের তালিকা',
+    'Status' => 'স্থিতি',
+    'Rate' => 'হার',
+    'Edit Tax InFo' => 'কর ইনফো সম্পাদনা করুন',
+];

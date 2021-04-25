@@ -1,0 +1,61 @@
+.testmonial_area{
+    background: #F8F8FE;
+    padding-top: 140px;
+    padding-bottom: 240px;
+    @media #{$tab}{
+        padding-top: 65px;
+        padding-bottom: 75px;
+    }
+    .single_testmonial{
+        border: 1px solid #EDEDED;
+        border-radius: 10px;
+        background: $white;
+        padding: 50px 50px 58px 50px;
+        @media #{$tab} {
+            padding: 40px 40px 48px 40px;
+        }
+        .testmonial_header{
+            margin-bottom: 25px;
+            .thumb{
+                margin-right: 30px;
+                width: 80px;
+                height: 80px;
+                flex: 80px 0 0;
+                @media #{$tab}{
+                    width: 50px;
+                    height: 50px;
+                    flex: 50px 0 0;
+                    margin-right: 20px;
+                }
+                img{
+                    width: 100%;
+                    border-radius: 50%;
+                }
+            }
+            .reviewer_name{
+                h4{
+                    font-size: 18px;
+                    font-weight: 700;
+                    font-family: $font1;
+                    margin-bottom: 7px;
+                }
+                .rate{
+                    i{
+                        font-size: 15px;
+                        color: #FFC107;
+                        &:not(:last-child){
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        p{
+            font-size: 18px;
+            line-height: 28px;
+            font-weight: 700;
+            color: $theme_color;
+            margin-bottom: 0;
+        }
+    }
+}

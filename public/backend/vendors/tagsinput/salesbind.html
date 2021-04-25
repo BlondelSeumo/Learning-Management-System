@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)http://localhost/project/infix/infix_html/address_book.php -->
+<html lang="zxx"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>infix</title>
+
+    <link rel="icon" href="http://localhost/project/infix/infix_html/img/favicon.png" type="image/png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./infix_files/bootstrap.min.css">
+    <!-- themefy CSS -->
+    <link rel="stylesheet" href="./infix_files/themify-icons.css">
+    <!-- swiper slider CSS -->
+    <link rel="stylesheet" href="./infix_files/swiper.min.css">
+    <!-- select2 CSS -->
+    <link rel="stylesheet" href="./infix_files/select2.min.css">
+    <!-- select2 CSS -->
+    <link rel="stylesheet" href="./infix_files/nice-select.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="./infix_files/owl.carousel.css">
+     <!-- gijgo css -->
+     <link rel="stylesheet" href="./infix_files/gijgo.min.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="./infix_files/all.min.css">
+    <link rel="stylesheet" href="./infix_files/tagsinput.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="./infix_files/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="./infix_files/responsive.dataTables.min.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="./infix_files/style.css">
+  <style type="text/css">
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 400;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 500;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-MediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 700;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Black.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 900;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BlackItalic.woff2') format('woff2');
+}</style></head>
+
+  <body>
+  <header class="header_part">
+      <div class="container-fluid no-gutters">
+		  <div class="row">
+			  <div class="col-lg-12 p-0">
+				  <div class="header_iner d-flex justify-content-between align-items-center">
+            <div class="sidebar_icon d-lg-none">
+              <i class="ti-menu"></i>
+            </div>
+					  <div class="logo">
+						  <img src="./infix_files/logo.png" alt="#">
+					  </div>
+					  <div class="profile_info">
+						  <img src="./infix_files/client_img.png" alt="#">
+						  <div class="profile_info_iner">
+							  <p>Logged in as:</p>
+							  <h5>Mosharof Haque</h5>
+							  <div class="profile_info_details">
+								  <a href="http://localhost/project/infix/infix_html/address_book.php#">My Profile <i class="ti-user"></i></a>
+								  <a href="http://localhost/project/infix/infix_html/address_book.php#">Settings <i class="ti-settings"></i></a>
+								  <a href="http://localhost/project/infix/infix_html/address_book.php#">Knowledge Base <i class="ti-folder"></i></a>
+								  <a href="http://localhost/project/infix/infix_html/address_book.php#">Log Out <i class="ti-shift-left"></i></a>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+		  </div>
+	  </div>
+  </header>
+<!-- sidebar part here -->
+<section class="sidebar">
+    <div class="sidebar_close_icon d-lg-none">
+        <i class="ti-close"></i>
+    </div>
+    <div class="sidebar_iner">
+        <div class="single_sidebar_iner">
+            <div class="single_sidebar_tittle d-flex align-items-center">
+                <i class="ti-dashboard"></i>
+                <p>Dashboard</p>
+            </div>
+            <a href="http://localhost/project/infix/infix_html/index.php" class="single_menu_item left_arrow">View My Dashboard</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php" class="single_menu_item left_arrow">Address Book</a>
+        </div>
+        <div class="single_sidebar_iner">
+            <div class="single_sidebar_tittle d-flex align-items-center">
+                <i class="ti-user"></i>
+                <p>Accounts</p>
+            </div>
+            <a href="http://localhost/project/infix/infix_html/customer_account.php" class="single_menu_item left_arrow">Customer List</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Prospect List</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Supplier LIst</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Sales Opportunities</a>
+        </div>
+        <div class="single_sidebar_iner">
+            <div class="single_sidebar_tittle d-flex align-items-center">
+                <i class="ti-package"></i>
+                <p>Inventory</p>
+            </div>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Inventory List</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Stock Transfer</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Kits &amp; Bundles</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Manage Categories</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Manage Attributes</a>
+        </div>
+        <div class="single_sidebar_iner">
+            <div class="single_sidebar_tittle d-flex align-items-center">
+                <i class="ti-pencil-alt"></i>
+                <p>Orders</p>
+            </div>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Purchase &amp; Orders</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Estimates</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Invoices</a>
+        </div>
+        <div class="single_sidebar_iner">
+            <div class="single_sidebar_tittle d-flex align-items-center">
+                <i class="ti-pie-chart"></i>
+                <p>Reports</p>
+            </div>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Financial Reports</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Aged Receivables</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Sold Items</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Purchased Items</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Low Inventory</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Payments Report</a>
+            <a href="http://localhost/project/infix/infix_html/address_book.php#" class="single_menu_item left_arrow">Customer Revenue</a>
+        </div>
+    </div>
+</section>
+<!-- sidebar part end -->
+
+<!-- main content part here -->
+<section class="main_content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-9 col-lg-8">
+                <!-- breadcrumb part here -->
+<section class="sa_breadcrumb">
+    <div class="breadcrumb_content d-sm-flex justify-content-between align-items-center">
+        <h2> Dashboard </h2>
+        <div class="sa_breadcrumb_iner">
+            <a href="http://localhost/project/infix/infix_html/address_book.php#">Dashboard</a>            <a href="http://localhost/project/infix/infix_html/address_book.php#"> Address Book</a>                    </div>
+    </div>
+</section>
+<!-- breadcrumb part end -->                <div class="white_box mt_30 table_style">
+                    <div class="table_header">
+                        <h3>Address Book</h3>
+                        <div class="header_btn">
+                            <button type="button" class="btn_2" data-toggle="modal" data-target="#export_btn">
+                            Export Contacts
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade bd-example-modal-lg" id="export_btn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5>Export Address Book</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h6>Export all of your Contacts as a CSV File</h6>
+                                            <p>You can export your <a href="customer_account_details.php" class="client_name">Travor James</a> list as a CSV file. The CSV file can be opened in programs such as Microsoft Excel or Apple Numbers.</p>
+                                        </div>
+                                        <div class="modal-footer justify-content-center">
+                                            <button type="button" class="btn_2" data-dismiss="modal">Cancel</button>
+                                            <button type="button" class="btn_1">Download Address Book</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="button" class="btn_1" data-toggle="modal" data-target="#add_content">
+                            Add New Contact
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade bd-example-modal-lg" id="add_content" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5>Create New Contact</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="http://localhost/project/infix/infix_html/address_book.php#" name="add_content">
+                                                <div class="form-row contact_info">
+                                                    <div class="col-md-12">
+                                                        <h6>Contact's Information</h6>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="first_name">First name</label>
+                                                        <input type="text" class="form-control" id="first_name" placeholder="Enter first name">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="last_name">last name</label>
+                                                        <input type="text" class="form-control" id="last_name" placeholder="Enter last name">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="phone">phone number</label>
+                                                        <input type="text" class="form-control" id="phone" placeholder="Enter phone">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="cell_number">Cell number</label>
+                                                        <input type="text" class="form-control" id="cell_number" placeholder="Enter cell">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="job">Job title</label>
+                                                        <input type="text" class="form-control" id="job" placeholder="Enter job title">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="fax">Fax number</label>
+                                                        <input type="text" class="form-control" id="fax" placeholder="Fax number">
+                                                    </div>
+                                                </div>
+                                                <div class="form-row tag_list">
+                                                    <div class="col-md-12">
+                                                        <h6>Accounts</h6>
+                                                    </div>
+                                                    <div class="form-group col-md-12">
+                                                        <label for="tag">Customer, Prospect or Supplier accounts to affiliate this Contact with</label>
+                                                        <div class="bootstrap-tagsinput"><span class="badge badge-info">Amsterdam<span data-role="remove"></span></span><span class="badge badge-info">Washington<span data-role="remove"></span></span><input type="text" placeholder=""></div><input type="text" value="Amsterdam,Washington" data-role="tagsinput" class="sr-only">
+                                                    </div>
+                                                </div>
+                                                <div class="form-row contact_info">
+                                                    <div class="col-md-12">
+                                                        <h6>Email Addresses</h6>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="email">Primary email</label>
+                                                        <input type="email" class="form-control" id="email" placeholder="Enter primary email">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="sec_email">Secondary email</label>
+                                                        <input type="text" class="form-control" id="sec_email" placeholder="Enter secondary email">
+                                                    </div>
+                                                    <div class="form-group col-md-12 d-flex">
+                                                        <input class="switch" type="checkbox">
+                                                        <p>Automatically include this contact in outgoing messages</p>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer justify-content-center">
+                                            <button type="button" class="btn_2" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn_1">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="DataTables_Table_0_length"><label>Show <select name="DataTables_Table_0_length" aria-controls="DataTables_Table_0" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="DataTables_Table_0_filter" class="dataTables_filter"><label><i class="ti-search"></i><input type="search" class="" placeholder="Search all contact here..." aria-controls="DataTables_Table_0"></label></div><table class="table table_responsive dataTable no-footer dtr-inline collapsed" style="width: 100%;" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                      <thead>
+                          <tr role="row"><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 144px;">Full name</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 109px;">Phone</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 171px;">Email address</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 74px;">Date added</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 0px; display: none;">Action</th></tr>
+                      </thead>
+                      <tbody>
+                          
+                          
+                          
+                          
+                      <tr role="row" class="odd">
+                              <td tabindex="0">
+                                  <img src="./infix_files/sm_client_img.png" alt="">
+                                  You can export your <a href="customer_account_details.php" class="client_name">Travor James</a>
+                                </td>
+                              <td>+8801841521436</td>
+                              <td>designer25@infix.com</td>
+                              <td>25/09/2019</td>
+                              <td style="display: none;">
+                                <div class="dropdown cu_dropdown">
+                                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                       Options
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <button class="dropdown-item left_arrow" type="button" data-toggle="modal" data-target="#editStudent">Edit</button>
+                                        <button class="dropdown-item left_arrow" type="button">delete</button>
+                                    </div>
+                                </div>
+                              </td>
+                          </tr><tr role="row" class="even">
+                              <td tabindex="0">
+                                  <img src="./infix_files/sm_client_img.png" alt="">
+                                  <a href="customer_account_details.php" class="client_name">Travor James</a>
+                                </td>
+                              <td>+8801841521436</td>
+                              <td>designer25@infix.com</td>
+                              <td>25/09/2019</td>
+                              <td style="display: none;">
+                                <div class="dropdown cu_dropdown">
+                                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                       Options
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <button class="dropdown-item left_arrow" type="button" data-toggle="modal" data-target="#editStudent">Edit</button>
+                                        <button class="dropdown-item left_arrow" type="button">delete</button>
+                                    </div>
+                                </div>
+                              </td>
+                          </tr><tr role="row" class="odd">
+                              <td tabindex="0">
+                                  <img src="./infix_files/sm_client_img.png" alt="">
+                                  <a href="customer_account_details.php" class="client_name">Travor James</a>
+                                </td>
+                              <td>+8801841521436</td>
+                              <td>designer25@infix.com</td>
+                              <td>25/09/2019</td>
+                              <td style="display: none;">
+                                <div class="dropdown cu_dropdown">
+                                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                       Options
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <button class="dropdown-item left_arrow" type="button" data-toggle="modal" data-target="#editStudent">Edit</button>
+                                        <button class="dropdown-item left_arrow" type="button">delete</button>
+                                    </div>
+                                </div>
+                              </td>
+                          </tr><tr role="row" class="even">
+                              <td tabindex="0">
+                                  <img src="./infix_files/sm_client_img.png" alt="">
+                                  <a href="customer_account_details.php" class="client_name">Travor James</a>
+                                </td>
+                              <td>+8801841521436</td>
+                              <td>designer25@infix.com</td>
+                              <td>25/09/2019</td>
+                              <td style="display: none;">
+                                <div class="dropdown cu_dropdown">
+                                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                       Options
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <button class="dropdown-item left_arrow" type="button" data-toggle="modal" data-target="#editStudent">Edit</button>
+                                        <button class="dropdown-item left_arrow" type="button">delete</button>
+                                    </div>
+                                </div>
+                              </td>
+                          </tr></tbody>
+                    </table><div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">Showing 1 to 4 of 4 entries</div><div class="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate"><a class="paginate_button previous disabled" aria-controls="DataTables_Table_0" data-dt-idx="0" tabindex="0" id="DataTables_Table_0_previous"><i class="ti-angle-left"></i></a><span><a class="paginate_button current" aria-controls="DataTables_Table_0" data-dt-idx="1" tabindex="0">1</a></span><a class="paginate_button next disabled" aria-controls="DataTables_Table_0" data-dt-idx="2" tabindex="0" id="DataTables_Table_0_next"><i class="ti-angle-right"></i></a></div></div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4">
+                <div class="white_box mt_30">
+                    <h3>Address Book Statistics</h3>
+                    <div class="single_part">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5>Total Contacts</h5>
+                            <h5>12</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="address_book_hint mt_30">
+                    <p> <b> Hint:</b> Your contacts can be associated with multiple customer/prospect accounts.</p>
+                    <p>Clicking on an account name below a contact's name will take you to their associated account.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- main content part end -->
+
+<!-- footer part -->
+    <footer class="footer_part">
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-lg-12">
+                    <div class="footer_iner">
+                        <p>Copyright © 2019. All rights reserved to <a href="http://localhost/project/infix/infix_html/address_book.php#">infix</a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jquery slim -->
+    <script src="./infix_files/jquery-3.4.1.min.js"></script>
+    <!-- popper js -->
+    <script src="./infix_files/popper.min.js"></script>
+    <!-- bootstarp js -->
+    <script src="./infix_files/bootstrap.rtl.min.js"></script>
+    <!-- jquery ui js -->
+    <script src="./infix_files/jquery.simpleLoadMore.js"></script>
+    <!-- swiper slider js -->
+    <script src="./infix_files/swiper.min.js"></script>
+    <!-- select2 js -->
+    <script src="./infix_files/select2.min.js"></script>
+    <!-- nice select -->
+    <script src="./infix_files/jquery.nice-select.min.js"></script>
+    <!-- owl carousel -->
+    <script src="./infix_files/owl.carousel.min.js"></script>
+    <!-- load more -->
+    <script src="./infix_files/jquery.nicescroll.min.js"></script>
+    <!-- rangeslider js -->
+    <script src="./infix_files/rangeslider.js"></script>
+    <!-- load more -->
+    <script src="./infix_files/jquery.scrollbar.min.js"></script>
+     <!-- gijgo css -->
+     <script src="./infix_files/gijgo.min.js"></script>
+    <!-- responsive table -->
+    <script src="./infix_files/jquery.dataTables.min.js"></script>
+    <script src="./infix_files/dataTables.responsive.min.js"></script>
+    <script src="./infix_files/tagsinput.js"></script>
+    <!-- load more -->
+    <script src="./infix_files/chart.js@2.8.0"></script>
+    <!-- custom js -->
+    <script src="./infix_files/custom.js"></script>
+
+
+
+</body><loom-container id="lo-engage-ext-container"><loom-shadow classname="resolved"></loom-shadow></loom-container></html>

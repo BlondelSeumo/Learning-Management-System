@@ -1,0 +1,96 @@
+// opacity
+@mixin opacity($opacity) {
+    opacity: $opacity;
+    $opacity-ie: $opacity * 100;
+    filter: alpha(opacity=$opacity-ie); //IE8
+  }
+// transition
+@mixin transition($args...) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}// transition
+@mixin border-radius($man) {
+  -webkit-border-radius: $man;
+  -moz-border-radius: $man;
+  border-radius: $man;
+}
+
+
+// Flexbox display
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+// justify-content
+@mixin justify-content($justify) {
+  -webkit-justify-content: $justify;
+     -moz-justify-content: $justify;
+      -ms-justify-content: $justify;
+          justify-content: $justify;
+            -ms-flex-pack: $justify;
+}
+
+// align-content
+@mixin align-content($align) {
+  -webkit-align-content: $align;
+     -moz-align-content: $align;
+      -ms-align-content: $align;
+          align-content: $align;
+}
+
+// Cross-axis Alignment
+@mixin align-items($align) {
+  -webkit-align-items: $align;
+     -moz-align-items: $align;
+      -ms-align-items: $align;
+          align-items: $align;
+}
+
+
+// transform
+// Browser Prefixes
+@mixin transform($transforms) {
+	-webkit-transform: $transforms;
+	-moz-transform: $transforms;
+	-ms-transform: $transforms;
+	transform: $transforms;
+}
+// Translate
+@mixin translate ($x, $y) {
+	@include transform(translate($x, $y));
+}
+// TranslateY
+@mixin translateY ($y) {
+  @include transform(translateY($y));
+  }
+// TranslateY
+@mixin translateX ($y) {
+  @include transform(translateY($y));
+  }
+
+
+// Box shadows
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow;
+     -moz-box-shadow: $shadow;       
+          box-shadow: $shadow;
+}
+
+@mixin background($imgpath,$position:0 0,$repeat: no-repeat) {
+  background: {
+      image: url($imgpath);
+      position: $position;
+      repeat: $repeat;
+  }
+}
+@mixin transform_time($total_time) {
+  -webkit-transition: $total_time;
+  transition: $total_time;
+}

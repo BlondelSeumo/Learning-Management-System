@@ -1,0 +1,20 @@
+<?php
+    return [    'Footer' => 'Pie de página',
+    'Footer Settings' => 'Configuración del pie de página',
+    'Dashboard' => 'Tablero de mandos',
+    'Frontend CMS' => 'CMS Frontend',
+    'Copyright Text' => 'Texto de derechos de autor',
+    'About Text' => 'Acerca del texto',
+    'Section name' => 'Nombre de la sección',
+    'About Description' => 'Acerca de la descripción',
+    'Add New Page' => 'Añadir nueva página',
+    'Cancel' => 'Cancelar',
+    'Widget' => 'Widget',
+    'Page Name' => 'Nombre de la página',
+    'Edit Link' => 'Editar enlace',
+    'Widget Title' => 'Título del widget',
+    'Add Link' => 'Añadir enlace',
+    'Select Page' => 'Seleccione la página',
+    'Are you sure' => '¿Está seguro de que',
+        ]
+?>

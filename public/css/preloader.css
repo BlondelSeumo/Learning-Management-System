@@ -1,0 +1,35 @@
+.preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    z-index: 9999;
+}
+.preloader h3{
+    position: relative;
+    font-size: 10vw;
+    color: #fff;
+    -webkit-text-stroke: 0.2vw #828BB2 ;
+    text-transform: uppercase;
+    font-weight: 600;
+    z-index: 0;
+}
+.preloader h3::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: #7C32FF;
+    -webkit-text-stroke: .2vw #7C32FF !important;
+    border-right: 3px solid #7C32FF ;
+    overflow: hidden;
+    animation: typeload 6s linear infinite ;
+    z-index: 9;
+}

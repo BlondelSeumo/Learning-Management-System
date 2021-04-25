@@ -1,0 +1,260 @@
+.instractors_wrapper{
+   padding: 144px 0 110px 0;
+   @media #{$tab} {
+    padding: 69px 0 35px 0;
+   }
+   &.instractors_wrapper2{
+    padding: 0px 0 100px 0;
+    @media #{$tab} {
+        padding: 0px 0 25px 0;
+       }
+   }
+}
+
+.single_instractor{
+    .thumb{
+        margin-bottom: 31px;
+        overflow: hidden;
+        display: block;
+        img{
+            width: 100%;
+            transform: scale(1);
+            transition: .3s;
+        }
+    }
+    h4{
+        font-size: 20px;
+        font-weight: 700;
+        color: #202E3B;
+        margin-bottom: 3px;
+    }
+    span{
+        display: block;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: $font2;
+        color: #373737;
+    }
+    &:hover{
+        .thumb{
+            img{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+// instractos_details
+.instractos_details_wrapper{
+    padding: 150px 0 120px 0;
+    @media #{$tab} {
+        padding: 75px 0 40px 0;
+    }
+    .instractos_profile{
+        .thumb{
+            max-width: 330px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 30px auto; 
+            @media #{$tab} {
+               max-width: 200px; 
+            }
+            img{
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+        .instractor_meta{
+            text-align: center;
+            h4{
+                font-size: 22px;
+                font-weight: 700;
+                margin-bottom: 5px;
+            }
+            span{
+                font-size: 16px;
+                font-weight: 500;
+                color: #373737;
+            }
+            .social_media{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 38px;
+                a{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    color: $white;
+                    font-size: 16px;
+                    background: #395799;
+                    text-align: center;
+                    line-height: 50px;
+                    display: inline-block;
+                    &.twitter{
+                        background: #03ABF0;
+                    }
+                    &.pinterest{
+                        background: #C92128;
+                    }
+                    &.linkedin{
+                        background: #0477B5;
+                    }
+                    &:hover{
+                        background: $purple_color ;
+                    }
+                    &:not(:last-child){
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .instractos_main_details{
+        .course__details_title{
+            display: flex;
+            
+            @media #{$large_xl} {
+                justify-content: space-between;
+            }
+            @media #{$tab} {
+                flex-direction: column;
+            }
+            @media #{$lg_device} {
+                flex-direction: column;
+            }
+            
+            .single__details{
+                display: flex;
+                align-items: center;
+                position: relative;
+                z-index: 1;
+                margin-bottom: 40px;
+                @media #{$lg_device} {
+                    margin-bottom: 20px;
+                    padding-right: 0;
+                    margin-right: 0;
+                }
+                @media #{$tab} {
+                    margin-bottom: 30px;
+                }
+                &:not(:last-child){
+                    margin-right: 60px;
+                    padding-right: 60px;
+                    @media #{$medium_device} {
+                        margin-right: 30px;
+                        padding-right: 30px;
+                    }
+                    @media #{$lg_device} {
+                        padding-right: 0;
+                        margin-right: 0;
+                    }
+                    @media #{$tab}{
+                        margin-right: 0;
+                        padding-right: 0;
+                    }
+                    @media #{'(min-width: 1200px) and (max-width: 1499.98px)'}{
+                        padding-right: 0;
+                        margin-right: 0;
+                    }
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        background: #E9E7F7;
+                        width: 1px;
+                        height: 40px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        @media #{$tab}{
+                            display: none;
+                        }
+                        @media #{$medium_device}{
+                            display: none;
+                        }
+                        @media #{$lg_device} {
+                            display: none;
+                        }
+                        @media #{$large_xl} {
+                           display: none;
+                        }
+                    }
+                }
+                
+                .thumb{
+                    margin-right: 25px;
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    flex: 80px 0 0;
+                    img{
+                        width: 100%;
+                        border-radius: 50%;
+                    }
+                }
+                .details_content{
+                    span{
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: $color_1;
+                        display: inline-block;
+                        margin-bottom: 3px;
+                    }
+                    h4{
+                        @media #{$medium_device} {
+                            font-size: 18px;
+                        }
+                    }
+                    .rating_star{
+                        display: flex;
+                        .stars{
+                            display: flex;
+                            align-items: center;
+                            i{
+                                font-size: 15px;
+                                color: #FFC107;
+                                &:not(:last-child){
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                        p{
+                            font-size: 14px;
+                            font-weight: 400;
+                            font-family: $font2;
+                            color: #202E3B;
+                            margin-bottom: 0;
+                            margin-left: 19px;
+                            @media #{$medium_device} {
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .instractos_info_Details{
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                color: #373737;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+.course_by_author{
+    padding-bottom: 115px;
+    @media #{$tab} {
+        padding-bottom: 40px;
+    }
+    .theme_border{
+        padding-bottom: 85px;
+        @media #{$tab}{
+            padding-bottom: 45px;
+        }
+    }
+}

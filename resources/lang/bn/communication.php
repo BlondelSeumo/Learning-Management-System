@@ -1,0 +1,20 @@
+<?php
+return [
+    'Communication' => 'যোগাযোগ',
+    'Questions & Answer' => 'প্রশ্ন ও উত্তর',
+    'Private Messages' => 'ব্যক্তিগত বার্তাসমূহ',
+    'Message List' => 'বার্তা তালিকা',
+    'Write your message' => 'আপনার বার্তা লিখুন',
+    'Search content here' => 'এখানে সামগ্রী অনুসন্ধান করুন',
+    'Short Code' => 'শর্ট কোড',
+    'Field Name' => 'ক্ষেত্র নাম',
+    'Subscriptions' => 'সাবস্ক্রিপশন',
+    'Send Message' => 'বার্তা পাঠান',
+    'Send Email' => 'ইমেইল পাঠান',
+    'Compose Message' => 'বার্তা রচনা',
+    'Your referral link' => 'আপনার রেফারেল লিংক',
+    'Copy Link' => 'লিংক কপি করুন',
+    'Share the referral link with your friends.' => 'আপনার বন্ধুদের সাথে রেফারেল লিঙ্কটি ভাগ করুন।',
+    'Your referral list' => 'আপনার রেফারেল তালিকা',
+    "Let's say Hi" => 'আমি হাই বলি',
+];

@@ -1,0 +1,299 @@
+html[dir=rtl] {
+    text-align: right;
+}
+.rtl body {
+    text-align: right;
+}
+html[dir=rtl] .profile_info img {
+	margin-right: 0px;
+	margin-left: 15px;
+}
+html[dir=rtl] .theme_search_field button {
+	padding: 0 15px 0 15px;
+}
+html[dir=rtl] .header_area .header__wrapper .header__left .category_search .categories_menu {
+	margin-right: 0px;
+	margin-left: 30px;
+}
+html[dir=rtl]  .header_area .header__wrapper .header__left .category_search .categories_menu i {
+	margin-right: 0;
+	margin-left: 10px;
+}
+html[dir=rtl] .header_area .header__wrapper .header__left .logo_img {
+	margin-right: 0;
+	margin-left: 80px;
+}
+html[dir=rtl] .category_area .couses_category .single_course_cat .icon {
+	margin-right: 0px;
+	margin-left: 20px;
+}
+html[dir=rtl] .active_menu .active_menu_item > ul {
+	left: auto;
+	right: 100%;
+}
+html[dir=rtl] .menu_dropdown > ul {
+	left: auto;
+	right: 0;
+}
+html[dir=rtl] .menu_dropdown > ul::after {
+	left: auto;
+	right: 27px;
+}
+html[dir=rtl] .course_area .single_course .course_content .course_less_students a i {
+	margin-right: 0;
+	margin-left: 10px;
+}
+html[dir=rtl] .course_area .single_course .course_content .course_less_students a:not(:last-child) {
+	margin-right: 0;
+	margin-left: 30px;
+}
+html[dir=rtl] .course_area .single_course .course_content .rating_cart .rateing {
+	margin-right: 0;
+	margin-left: 5px;
+}
+html[dir=rtl] .quiz_area .single_course .course_content .rating_cart .rateing {
+	margin-right: 0;
+	margin-left: 5px;
+}
+html[dir=rtl] .quiz_area .single_course .course_content .course_less_students a i {
+	margin-right: 0;
+	margin-left: 10px;
+}
+html[dir=rtl] .quiz_area .single_course .course_content .course_less_students a:not(:last-child) {
+	margin-right: 0;
+	margin-left: 30px; 
+}
+html[dir=rtl] .testmonial_area .single_testmonial .testmonial_header .thumb {
+	margin-right: 0;
+	margin-left: 30px;
+}
+html[dir=rtl] .service_cta_area .single_cta_service .thumb {
+	margin-right: 0px;
+	margin-left: 40px;
+}
+html[dir=rtl] .theme_mailChimp .form-control {
+	border-radius: 0 5px 5px 0;
+}
+html[dir=rtl] .theme_mailChimp button {
+	border-radius: 5px 0 0 5px !important;
+}
+html[dir=rtl] footer .footer_top_area .footer__cta .thumb {
+	margin-right: 0px;
+	margin-left: 30px;
+}
+html[dir=rtl] .theme_mailChimp .form-control {
+	padding-right: 30px;
+}
+html[dir=rtl] .couse_wizged .course_content .rating_cart .rateing {
+	margin-right: 0px;
+	margin-left: 5px;
+}
+html[dir=rtl] .couse_wizged .course_content .course_less_students a i {
+	margin-right: 0;
+	margin-left: 10px;
+}
+html[dir=rtl] .couse_wizged .course_content .course_less_students a:not(:last-child) {
+	margin-right: 0px;
+	margin-left: 30px;
+}
+html[dir=rtl] .primary_checkbox .checkmark {
+	margin-right: 0;
+	margin-left: 12px;
+}
+html[dir=rtl] .mr_10 {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+html[dir=rtl] .course_category_chose .course_title svg {
+	margin-right: 0;
+	margin-left: 10px;
+}
+html[dir=rtl] .quiz_wizged .course_content .course_less_students a i {
+	margin-right: 0;
+	margin-left: 10px;
+}
+html[dir=rtl] .quiz_wizged .course_content .course_less_students a:not(:last-child) {
+	margin-right: 0;
+	margin-left: 30px;
+}
+html[dir=rtl] .quiz_wizged .course_content .rating_cart .rateing {
+	margin-right: 0;
+	margin-left: 5px;
+}
+html[dir=rtl] .contact_section .contact_info .address_lines .single_address_line i {
+	margin-right: 0;
+	margin-left: 20px;
+}
+html[dir=rtl] .course__details .course__details_title .single__details:not(:last-child) {
+	margin-right: 0;
+	padding-right: 0;
+	padding-left: 60px;
+	margin-left: 60px;
+}
+html[dir=rtl] .course__details .course__details_title .single__details:not(:last-child)::before {
+	right: auto;
+	left: 0;
+}
+html[dir=rtl] .course__details .course__details_title .single__details .thumb {
+	margin-right: 0;
+	margin-left: 25px;
+}
+html[dir=rtl] .sidebar__widget .course_includes li i {
+	margin-right: 0px;
+	margin-left: 15px;
+}
+html[dir=rtl] .sidebar__widget .sidebar__title h3 {
+	margin-right: 0;
+	margin-left: 23px;
+}
+html[dir=rtl] .theme_according .card-body .curriculam_list .curriculam_single .curriculam_right .theme_btn_lite {
+	margin-right: 0;
+	margin-left: 30px;
+}
+html[dir=rtl] .theme_according .card-body .curriculam_list .curriculam_single .curriculam_left i {
+	margin-right: 0;
+	margin-left: 15px;
+}
+html[dir=rtl] .lms_tab_content .instractor_details_wrapper .instractor_details_inner .instractor_details_info .intractor_qualification .single_qualification i {
+	margin-right: 0px;
+	margin-left: 15px;
+}
+html[dir=rtl] .course_review_wrapper .course_feedback .course_feedback_left {
+	padding-right: 0;
+	padding-left: 55px;
+}
+html[dir=rtl] .course_review_wrapper .course_feedback .feedbark_progressbar .single_progrssbar .rating_percent .feedmak_stars {
+	margin-right: 0;
+	margin-left: 20px;
+}
+html[dir=rtl] .course_review_wrapper .course_feedback .feedbark_progressbar .single_progrssbar .progress {
+	margin-right: 0;
+	margin-left: 30px;
+}
+html[dir=rtl] .mega_menu_dropdown .menu_dropdown_iner .single_menu_dropdown {
+	text-align: right;
+}
+
+
+
+
+
+html[dir=rtl] .header_iner .notification_wrapper ul li:last-child {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+html[dir=rtl] .header_iner .category_search .categories_menu {
+	margin-right: 0px;
+	margin-left: 30px;
+}
+html[dir=rtl] .header_iner .category_search .categories_menu i {
+	margin-right: 0;
+	margin-left: 10px;
+}
+html[dir=rtl] .couse_wizged .course_content {
+	padding-right: 0;
+}
+html[dir=rtl] .profile_info .profile_info_iner {
+	right: auto;
+	left: 0;
+}
+html[dir=rtl] .sidebar ul li a .menu_icon {
+	margin-right: 0;
+	margin-left: 10px;
+}
+html[dir=rtl] .sidebar_close_icon i {
+	right: auto;
+	left: 30px;
+}
+
+
+html[dir=rtl] .dashboard_main_wrapper .main_content_iner .dashboard_banner .banner_info .course_qualification p {
+	margin-right: 0;
+	margin-left: 30px;
+}
+html[dir=rtl] .rating > label::before {
+	content: "\f005";
+	left: 0;
+}
+html[dir=rtl] .rating > label {
+	position: relative;
+}
+html[dir=rtl] .couse_wizged .course_content .rating_cart .rateing span {
+	margin-right: 0;
+	margin-left: 7px;
+}
+html[dir=rtl] .course_area .single_course .course_content .rating_cart .rateing span {
+	margin-right: 0px;
+	margin-left: 7px;
+}
+html[dir=rtl] .quiz_area .single_course .course_content .rating_cart .rateing span {
+	margin-right: 0px;
+	margin-left: 7px;
+}
+html[dir=rtl] .work_process .list_number {
+	left: auto;
+	right: 0;
+}
+html[dir=rtl] .work_process .single_work_process {
+	padding-left: 0;
+	padding-right: 110px;
+}
+html[dir=rtl] .slicknav_menu .slicknav_icon {
+	left: 0;
+	right: auto;
+}
+html[dir=rtl] .slicknav_btn {
+	position: absolute;
+	left: 7px;
+	right: auto;
+	margin-top: -42px;
+}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+html[dir=rtl] {}
+
+
+
+
+@media (max-width: 575.98px) { 
+
+ }
+
+@media (min-width: 320px) and (max-width: 991.98px) { 
+	html[dir=rtl] .account_profile_wrapper .account_profile_thumb .thumb img {
+		width: 100%;
+		height: 100%;
+	}
+	html[dir=rtl] .custom_input_group .input-group-prepend .input-group-text {
+		padding-right: 0px;
+	}
+ }
+@media (min-width: 320px) and (max-width: 767.98px) { 
+	html[dir=rtl] .work_process .single_work_process {
+		padding-left: 0;
+		padding-right: 90px;
+	}
+ }
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+@media (min-width: 1200px) {  }

@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/systemsetting",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SystemSetting\\Providers\\SystemSettingServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SystemSetting\\": ""
+        }
+    }
+}

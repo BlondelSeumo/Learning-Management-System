@@ -1,0 +1,155 @@
+.category_area{
+    padding-bottom: 120px;
+    @media #{$tab}{
+        padding-bottom: 45px;
+    }
+    .section__title{
+        p{
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 29px;
+            margin: 20px 0 30px 0;
+        }
+    }
+    .category_wiz{
+        .thumb{
+            position: relative;
+            &.cat1 {
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                min-height: 360px;
+            }
+            &.cat2 {
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                min-height: 330px;
+            }
+            &.cat3 {
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                min-height: 330px;
+            }
+            &.small_thumb{
+                margin-right: 50px;
+                @media #{$tab} {
+                   margin-right: 0;
+                }
+                @media #{$lg_device} {
+                   margin-right: 0;
+                }
+                @media #{'only screen and (min-width: 1200px) and (max-width: 1499.98px)'} {
+                    margin-right: 0px;
+                }
+            }
+            .cat_btn{
+                position: absolute;
+                left: 30px;
+                bottom: 30px;
+                right: 30px;
+                background: $white;
+                @include border-radius(0px);
+                display: inline-block;
+                font-family: $font2;
+                font-size: 16px;
+                color: $theme_color;
+                font-weight: 600;
+                padding: 27.5px 8px;
+                border: 1px solid transparent;
+                text-transform: uppercase;
+                display: inline-block;
+                text-align: center;
+                line-height: 23px;
+                @media #{$tab} {
+                    font-size: 14px;
+                    padding: 20px 8px;
+                }
+                &:hover{
+                    color: $white;
+                    border-color: $purple_color;
+                    background: $purple_color ;
+                }
+            }
+        }
+    }
+    .brouse_cat_btn{
+        display: block;
+        background: #FB1159;
+        font-size: 30px;
+        font-family: $font1;
+        font-weight: 700;
+        line-height: 38px;
+        color: $white;
+        text-align: right;
+        padding: 50px;
+        min-height: 300px;
+        display: flex;
+        align-items: flex-end;
+        @media #{$tab} {
+            margin-left: 0;
+        }
+        @media #{'only screen and (min-width: 1200px) and (max-width: 1499.98px)'} {
+            margin-left: 0;
+        }
+        @media #{$lg_device} {
+            margin-left: 0;
+            font-size: 25px;
+            line-height: 33px;
+        }
+    }
+    .couses_category{
+        background: $white;
+        box-shadow: 0 3px 20px rgba(0, 0, 0,.05);
+        border-radius: 20px;
+        padding: 65px 70px 40px 70px;
+        position: relative;
+        margin-top: -100px;
+        margin-bottom: 150px;
+        @media #{$medium_device} {
+            padding: 52px 50px 23px 50px;
+        }
+        @media #{'(min-width: 1200px) and (max-width: 1499.98px)'} {
+            padding: 65px 30px 40px 30px;
+        }
+        @media #{$tab} {
+            padding: 40px 30px;
+            margin-top: -50px;
+        }
+        @media #{$tab} {
+            margin-bottom: 66px;
+        }
+        .col-xl-4:not(:last-child) .single_course_cat{
+            margin-bottom: 30px;
+        }
+        .single_course_cat{
+            display: flex;
+            @media #{$small_mobile} {
+                flex-direction: column;
+            }
+            @media #{$medium_device} {
+                flex-direction: column;
+            }
+            .icon{
+                margin-right: 20px;
+                margin-bottom: 15px;
+            }
+            .course_content{
+                h4{
+                    font-size: 22px;
+                    font-weight: 700;
+                    color: $theme_color;
+                    margin-bottom: 5px;
+                    @media #{'(min-width: 1200px) and (max-width: 1499.98px)'}{
+                        font-size: 19px;
+                    }
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

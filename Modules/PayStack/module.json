@@ -1,0 +1,13 @@
+{
+    "name": "PayStack",
+    "alias": "paystack",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\PayStack\\Providers\\PayStackServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

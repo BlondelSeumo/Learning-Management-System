@@ -1,0 +1,97 @@
+.counter_area{
+    padding: 150px 0 145px 0;
+    position: relative;
+    @media #{$tab} {
+        padding: 36px 0 72px 0;
+    }
+    @media #{$medium_device} {
+        padding: 25px 0 144px 0;
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 52%;
+        background-image: url(../img/about/counter_bg.png);
+        clip-path: polygon(24% 0, 100% 0%, 100% 100%, 0% 100%);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        @media #{$tab2} {
+            display: none;
+        }
+        @media #{$lg_device} {
+           width: 45%;
+        }
+        @media #{'(min-width: 992px) and (max-width: 1499.98px) '} {
+           width: 45%;
+        }
+    }
+    .counter_wrapper{
+        .single_counter{
+            display: flex;
+            align-items: center;
+            @media #{$tab}{
+                padding-left: 0 !important;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            &:not(:last-child){
+                margin-bottom: 53px;
+            }
+            &:first-child{
+                padding-left: 165px;
+                @media #{'(min-width: 992px) and (max-width: 1499.98px) '} {
+                    padding-left: 30px;
+                }
+            }
+            &:nth-child(2){
+                padding-left: 105px;
+                @media #{'(min-width: 992px) and (max-width: 1499.98px) '} {
+                    padding-left: 10px;
+                }
+            }
+            &:nth-child(3){
+                padding-left: 15px;
+                @media #{'(min-width: 992px) and (max-width: 1499.98px) '} {
+                    padding-left: 0;
+                }
+            }
+            h3{
+                font-size: 60px;
+                font-weight: 900;
+                color: #FB1159;
+                margin-right: 42px;
+                min-width: 150px;
+                margin-bottom: 0;
+                @media #{'(min-width: 992px) and (max-width: 1499.98px) '}{
+                    margin-right: 30px;
+                    font-size: 50px;
+                }
+                @media #{$tab}{
+                    font-size: 40px;
+                    width: auto;
+                    margin-bottom: 20px;
+                }
+            }
+            .counter_content{
+                
+                h4{
+                    font-size: 22px;
+                    font-weight: 700;
+                    color: $theme_color;
+                    margin-bottom: 15px;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    color: $color_1;
+                }
+            }
+        }
+    }
+}

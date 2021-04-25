@@ -1,0 +1,154 @@
+.checkout_wrapper{
+    
+    display: grid;
+    grid-template-columns: 58% 42%;
+    @media #{$tab}{
+        grid-template-columns: 1fr;
+    }
+    @media #{$lg_device} {
+        grid-template-columns: 55% 45%;
+    }
+    @media #{$medium_device}{
+        grid-template-columns: 1fr;
+    }
+    .billing_details_wrapper{
+        padding: 150px 60px 150px 350px;
+        @media #{$tab} {
+            padding: 75px 20px;
+        }
+        @media #{$medium_device} {
+            padding: 75px 50px;
+        }
+        @media #{$lg_device} {
+            padding: 75px 50px;
+        }
+        @media #{'(min-width: 1200px) and (max-width: 1499.98px)'} {
+            padding: 147px 60px 150px 60px;
+        }
+        @media #{'(min-width: 1500px) and (max-width: 1799.98px)'} {
+            padding: 147px 100px 150px 200px;
+        }
+    }
+    .order_wrapper{
+        background: #FAFAFA;
+        padding: 147px 254px 150px 90px;
+        @media #{$tab} {
+            padding: 73px 20px 75px 20px;
+        }
+        @media #{$medium_device} {
+            padding: 75px 50px;
+        }
+        @media #{$lg_device} {
+            padding: 75px 50px;
+        }
+        @media #{'(min-width: 1200px) and (max-width: 1499.98px)'} {
+            padding: 147px 60px 150px 60px;
+        }
+        @media #{'(min-width: 1500px) and (max-width: 1799.98px)'} {
+            padding: 147px 100px 150px 100px;
+        }
+        .ordered_products{
+            .single_ordered_product{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                @media #{$small_mobile} {
+                    flex-wrap: wrap;
+                }
+                .product_name{
+                    .thumb{
+                        width: 140px;
+                        height: 80px;
+                        margin-right: 20px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    span{
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #373737;
+                    }
+                }
+                .order_prise{
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #373737;
+                }
+            }
+        }
+        .ordered_products_lists{
+            margin-bottom: 36px;
+            .single_lists{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-top: 1px solid #E1E2E6;
+                padding: 20px 0;
+                .coupon_value{
+                    width: 130px;
+                    height: 40px;
+                    border-radius: 5px;
+                    border: 1px solid #E1E2E6;
+                    padding:11px 23px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    font-family: $font1;
+                    text-transform: uppercase;
+                    color: #FB1159;
+                }
+                span{
+                    color: #373737;
+                    font-size: 16px;
+                    font-weight: 400;
+                    &.total_text{
+                        font-size: 16px;
+                        color: #202E3B;
+                        font-weight: 600;
+                    }
+                }
+                
+            }
+        }
+        .bank_transfer{
+            .bank_check{
+                margin-bottom: 25px;
+                .label_name{
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: $font2;
+                    color: #373737;
+                }
+            }
+            .quote{
+                background: #F9F9FD;
+                padding: 30px;
+                border: 1px solid #E1E2E6;
+                border-radius: 5px;
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #373737;
+                    line-height: 26px;
+                    margin-bottom: 0;
+                }
+            }
+            .payment{
+                display: flex;
+                flex-direction: column;
+                margin: 30px 0 17px 0;
+                .primary_bulet_checkbox{
+                    margin-bottom: 6px;
+                }
+                .label_name{
+                    margin-right: 20px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #373737;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

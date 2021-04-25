@@ -1,0 +1,48 @@
+.service_cta_area{
+    padding-bottom: 120px;
+    @media #{$tab} {
+		padding: 0px 0 45px 0;
+	}
+    .border_top_1px{
+        border-top: 1px solid #E9E7F7;
+        padding-bottom: 150px;
+        @media #{$tab} {
+            padding: 75px 0 0px 0;
+        }
+    }
+    .single_cta_service{
+        background: $white;
+        box-shadow: 0 3px 20px rgba(0, 0, 0,.05) ;
+        padding: 40px 60px 50px 40px;
+        border-radius: 10px;
+        display: flex;
+        
+        @media #{$small_mobile} {
+            padding: 30px 50px 40px 30px;
+            flex-wrap: wrap;
+        }
+        .thumb{
+            width: 110px;
+            height: 110px;
+            margin-right: 40px;
+            flex: 110px 0 0;
+            margin-bottom: 30px;
+            img{
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+        h4{
+            font-size: 22px;
+            font-weight: 700;
+            color: #202E3B;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 23px;
+            color: $color_1;
+            margin: 10px 0 29px 0;
+        }
+    }
+}

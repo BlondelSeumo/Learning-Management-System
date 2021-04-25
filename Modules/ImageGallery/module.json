@@ -1,0 +1,13 @@
+{
+    "name": "ImageGallery",
+    "alias": "imagegallery",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\ImageGallery\\Providers\\ImageGalleryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'Instructor' => 'প্রশিক্ষক',
+    'Amount' => 'পরিমাণ',
+    'Invoice Date' => 'চালান তারিখ',
+    'Method' => 'পদ্ধতি',
+    'Issue Date' => 'প্রদানের তারিখ',
+    'Waiting' => 'অপেক্ষা করছি',
+    'Instructor Payment' => 'প্রশিক্ষক প্রদান',
+    'Approved' => 'অনুমোদিত',
+    'Rejected' => 'প্রত্যাখ্যাত',
+    'Next Payout' => 'পরবর্তী অর্থ প্রদান',
+    'You Currently Have' => 'আপনি বর্তমানে আছে',
+    'in earnings for next months payout' => 'পরবর্তী মাসের পরিশোধের জন্য উপার্জনে',
+    'Payout Account' => 'পরিশোধ অ্যাকাউন্ট',
+    'Set Account' => 'অ্যাকাউন্ট সেট করুন',
+    'Payout Email' => 'অর্থ প্রদান ইমেল',
+    'Set Payout' => 'পেআউট সেট করুন',
+    'Payout Email Saved Successfully' => 'অর্থ প্রদানের ইমেল সফলভাবে সংরক্ষিত হয়েছে',
+    'Request Date' => 'অনুরোধ তারিখ',
+    'Payment Status' => 'লেনদেনের অবস্থা',
+    'Payment Request' => 'পরিশোধের অনুরোধ',
+    'Are you Sure, You want to request for payment?' => 'আপনি কি নিশ্চিত, আপনি অর্থ প্রদানের জন্য অনুরোধ করতে চান?',
+    'Confirm' => 'কনফার্ম',
+    'Are you Sure, You want to mark as payment?' => 'আপনি কি নিশ্চিত, আপনি অর্থ প্রদান হিসাবে চিহ্নিত করতে চান?',
+];

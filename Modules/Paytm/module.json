@@ -1,0 +1,13 @@
+{
+    "name": "Paytm",
+    "alias": "paytm",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Paytm\\Providers\\PaytmServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

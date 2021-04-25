@@ -1,0 +1,17 @@
+{
+    "name": "Coupons",
+    "alias": "coupons",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Coupons\\Providers\\CouponsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "minimumCoreVersion": "",
+    "title": "Coupons",
+    "version":1,
+    "author": "Infix LMS"
+}
